@@ -26,6 +26,12 @@
     "url": "http://localhost:9001/api/events",
     "token": 1234
   },
+  "ssl": {
+    "serverKey": "server.key",
+    "serverCert": "server.crt",
+    "port": 443,
+    "redirect": "normal"
+  },
   "secret": "Just a sample secret string",
   "redirectUrl": "http://localhost:3000"
 }
