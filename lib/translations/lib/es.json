@@ -28,6 +28,11 @@
   "instance.new.title": "Nueva instancia",
   "instance.success.title": "Instancia creada",
 
+  "settings.notifications.title": "Configuración de notificaciones",
+  "settings.notifications.get-email-when": "Recibir un correo electrónico cuando",
+  "settings.notifications.new-topic": "Un nuevo tema es publicado",
+  "settings.notifications.someone-replies-your-comments": "Alguien contesta uno de tus argumentos",
+
   "validators.required": "Requerido",
   "validators.checked": "Chequeado requerido",
   "validators.invalid.email": "Correo no válido",

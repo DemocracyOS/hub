@@ -29,6 +29,11 @@
   "instance.new.title": "New instance",
   "instance.success.title": "Instance created",
 
+  "settings.notifications.title": "Notifications settings",
+  "settings.notifications.get-email-when": "Get an email when",
+  "settings.notifications.new-topic": "A new topic gets published",
+  "settings.notifications.someone-replies-your-comments": "Someone replies one of your comments",
+
   "validators.required": "Required",
   "validators.checked": "Required checked field",
   "validators.invalid.email": "Invalid email",
