@@ -1,14 +1,14 @@
 {
   "privatePort": 3000,
   "publicPort": 3000,
-  "mongoUrl": "mongodb://localhost/democracyos-platform",
+  "mongoUrl": "mongodb://localhost/democracyos-hub",
   "host": "localhost",
   "protocol": "http",
   "client": [
     "organization name",
     "redirectUrl"
   ],
-  "organization name": "DemocracyOS Platform",
+  "organization name": "DemocracyOS Hub",
   "locale": "en",
   "auth": {
     "facebook": {

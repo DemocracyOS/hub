@@ -8,7 +8,7 @@ var https = require('https');
 var express = require('express');
 var app = module.exports = require('lib/boot');
 var fs = require('fs');
-var debug = require('debug')('platform');
+var debug = require('debug')('hub');
 
 var secure = 'https' == config('protocol');
 

@@ -1,11 +1,11 @@
 {
-  "name": "platform",
+  "name": "hub",
   "version": "0.0.1",
-  "description": "User friendly interface to spawn DemocracyOS",
+  "description": "DemocracyOS Hub: user interface to spawn and manage DemocracyOS instances",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/DemocracyOS/platform.git"
+    "url": "git://github.com/DemocracyOS/hub.git"
   },
   "keywords": [
     "nodejs",
@@ -19,7 +19,7 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/democracyos/platform/issues"
+    "url": "https://github.com/democracyos/hub/issues"
   },
   "engines": {
     "node": "0.10.28",
@@ -64,6 +64,6 @@
     "express-sslify": "0.1.1"
   },
   "scripts": {
-    "postinstall": "node ./bin/platform-install && node ./bin/platform-config && node ./bin/platform-build"
+    "postinstall": "node ./bin/hub-install && node ./bin/hub-config && node ./bin/hub-build"
   }
 }

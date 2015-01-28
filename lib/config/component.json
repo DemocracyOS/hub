@@ -1,6 +1,6 @@
 {
   "name": "config",
-  "description": "Client config component generated dynamicaly by ./bin/platform-build",
+  "description": "Client config component generated dynamicaly by ./bin/hub-build",
   "scripts": [ "client.js" ],
   "main": "client.js"
 }

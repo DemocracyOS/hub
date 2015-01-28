@@ -1,7 +1,7 @@
 {
-  "name": "platform",
+  "name": "hub",
   "version": "0.0.1",
-  "description": "User friendly interface to spam Democracy OS",
+  "description": "DemocracyOS Hub: user interface to spawn and manage DemocracyOS instances",
   "dependencies": {},
   "paths": [
     "lib"

@@ -1,5 +1,5 @@
 ifndef DEBUG
-  DEBUG="platform*"
+  DEBUG="hub*"
 endif
 
 ifndef NODE_ENV
@@ -16,15 +16,15 @@ node_modules:
 
 components:
 	@echo "Installing components..."
-	@node ./bin/platform-install --config
+	@node ./bin/hub-install --config
 
 config:
 	@echo "Updating config settings..."
-	@node ./bin/platform-config
+	@node ./bin/hub-config
 
 build:
 	@echo "Compiling components to ./public..."
-	@node ./bin/platform-build
+	@node ./bin/hub-build
 
 clean:
 	@echo "Removing dependencies, components and built assets."

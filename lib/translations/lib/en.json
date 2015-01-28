@@ -2,11 +2,11 @@
   "common.email": "Email",
   "common.password": "Password",
   "common.login": "Login",
-  "common.name": "DemocracyOS Platform",
+  "common.name": "DemocracyOS Hub",
   "common.no-user-for-email" : "No user found for that email address",
   "common.please.wait": "Please wait",
 
-  "header.logo": "DemocracyOS Platform",
+  "header.logo": "DemocracyOS Hub",
   "header.login": "Login",
   "header.signup": "Signup",
   "header.logout": "Logout",
