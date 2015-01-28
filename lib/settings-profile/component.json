@@ -1,0 +1,22 @@
+{
+  "name": "settings-profile",
+  "description": "Settings profile view",
+  "dependencies": {
+    "visionmedia/debug": "2.1.0",
+    "component/t": "1.0.0"
+  },
+  "locals": [
+    "user",
+    "form-view"
+  ],
+  "templates": [
+    "template.jade"
+  ],
+  "styles": [
+    "styles.styl"
+  ],
+  "scripts": [
+    "view.js"
+  ],
+  "main": "view.js"
+}

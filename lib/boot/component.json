@@ -15,6 +15,7 @@
     "forgot",
     "signin",
     "logout",
+    "settings",
     "restricted",
     "translations"
   ],
