@@ -60,7 +60,8 @@
     "csurf": "^1.6.5",
     "notifier-client": "0.2.0",
     "jwt-simple": "0.2.0",
-    "moment": "2.9.0"
+    "moment": "2.9.0",
+    "express-sslify": "0.1.1"
   },
   "scripts": {
     "postinstall": "node ./bin/platform-install && node ./bin/platform-config && node ./bin/platform-build"
