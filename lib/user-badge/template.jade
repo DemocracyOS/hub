@@ -4,8 +4,7 @@
     span.name.ellipsis=user.firstName
     span.caret
   ul.dropdown-menu
-    //TODO: uncoment for #15
-    //li: a(href='/settings')= t('header.settings')
+    li: a(href='/settings')= t('header.settings')
     - if (config['faq'])
       li: a(href="/help/faq")= t('help.faq.title')
     - if (config['tos'])
