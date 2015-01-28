@@ -1,5 +1,4 @@
-.signin-container.inner-container.small-container
-  #signin-form
+.newinstance-container.inner-container.small-container
     .title-page
       h1=t('Create new instance')
 
@@ -7,15 +6,21 @@
       ul.form-errors
 
       .form-group
+        label= t('URL')
+        .input-group
+          input.form-control(type='text', name='username', tabindex=1, validate='required username', autofocus)
+          span.input-group-addon= t('.democracyos.com')
+
+      .form-group
         label= t('Title')
-        input.form-control(type='text', name='title', tabindex=1, placeholder=t('The name of your instance; e.g., "City of Springfield"'), validate='required')
+        input.form-control(type='text', name='title', tabindex=2, placeholder=t('The name of your instance; e.g., "City of Springfield"'), validate='required')
 
       .form-group
         label= t('Summary')
-        textarea.form-control(name='summary', tabindex=2, placeholder=t('A brief description of the purpose of the instance'), validate='required')
+        textarea.form-control(name='summary', tabindex=3, placeholder=t('A brief description of the purpose of the instance'), validate='required')
 
       .form-group
-        label= t('URL')
-        input.form-control(type='text', name='url', tabindex=3, placeholder=t('http://example.democracyos.com'), validate='required url')
+        label= t('Image')
+        input.form-control(type='text', name='url', tabindex=4, placeholder=t('http://path/to/image.png'), validate='url')
 
-      .form-group: button.btn.btn-block.btn-primary.btn-lg(tabindex=3)=t('Create')
+      .form-group: button.btn.btn-block.btn-primary.btn-lg(tabindex=5)=t('Create')

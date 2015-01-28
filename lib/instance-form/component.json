@@ -13,5 +13,6 @@
     "success-view.js"
   ],
   "templates": [ "template.jade", "success-template.jade" ],
+  "styles": [ "instance-form.styl" ],
   "main": "instance-form.js"
 }
