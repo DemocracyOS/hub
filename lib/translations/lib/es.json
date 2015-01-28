@@ -31,6 +31,7 @@
   "validators.required": "Requerido",
   "validators.checked": "Chequeado requerido",
   "validators.invalid.email": "Correo no válido",
+  "validators.invalid.username": "Nombre de usuario no válido",
   "validators.invalid.firstname": "Nombre no válido",
   "validators.invalid.lastname": "Apellido no válido",
   "validators.invalid.author": "Autor no válido",
@@ -48,6 +49,8 @@
 
   "signup.title": "Registrarse con correo electrónico",
   "signup.email.placeholder": "ejemplo@correo.com",
+  "signup.username.label": "Nombre de usuario",
+  "signup.username.placeholder": "Nombre de usuario",
   "signup.firstname.label": "Tu nombre",
   "signup.firstname.placeholder": "Nombre",
   "signup.lastname.label": "Tu apellido",

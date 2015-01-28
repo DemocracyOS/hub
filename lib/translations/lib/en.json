@@ -32,6 +32,7 @@
   "validators.required": "Required",
   "validators.checked": "Required checked field",
   "validators.invalid.email": "Invalid email",
+  "validators.invalid.username": "Invalid user name",
   "validators.invalid.firstname": "Invalid firstname",
   "validators.invalid.lastname": "Invalid lastname",
   "validators.invalid.author": "Invalid author",
@@ -52,6 +53,8 @@
 
   "signup.title": "Signup with email",
   "signup.email.placeholder": "example@email.com",
+  "signup.username.label": "User name",
+  "signup.username.placeholder": "User name",
   "signup.firstname.label": "Your firstname",
   "signup.firstname.placeholder": "Firstname",
   "signup.lastname.label": "Your lastname",
