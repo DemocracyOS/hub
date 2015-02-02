@@ -5,7 +5,9 @@
     "component/dom": "^1.0.6",
     "visionmedia/page.js": "1.5.0",
     "visionmedia/debug": "2.1.0",
-    "component/t": "1.0.0"
+    "component/t": "1.0.0",
+    "javve/list.js": "1.1.1",
+    "component/infinity": "0.0.5"
   },
   "locals": [
     "render",
@@ -21,6 +23,7 @@
     "dashboard.js",
     "view.js"
   ],
+  "styles": [ "dashboard.styl" ],
   "templates": [ "template.jade" ],
   "main": "dashboard.js"
 }
