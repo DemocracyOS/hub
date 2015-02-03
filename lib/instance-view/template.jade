@@ -1,14 +1,15 @@
 div(class='col-sm-#{6*visibility} col-md-#{4*visibility} instance-item', data-id='#{id}')
   .thumbnail
-    img(src='#{image}')
+    .crop
+      img(src='#{image}')
     .caption
       .category #{category}
       h3.title
         span #{title}
-      .badges
+      .badges.hide
         a(href='#')
           span.glyphicon.glyphicon-comment
           span.badge #{participants}
       p.summary #{summary}
       .url
-        a.btn.btn-sm #{url}
+        a.btn.btn-sm #{fancyUrl}
