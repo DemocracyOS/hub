@@ -24,9 +24,25 @@
   "signin.error.user-disabled": "Esta cuenta ha sido deshabilitada",
 
   "dashboard.title": "Tablero",
+  "dashboard.search.placeholder": "Buscar",
+  "dashboard.action.getdos": "Obtener DemocracyOS ahora",
+  "dashboard.motto": "Se el cambio que queres ver.",
 
+  "instance.new.contenttitle": "Crear nueva instancia",
   "instance.new.title": "Nueva instancia",
+  "instance.form.url.label": "URL",
+  "instance.form.title.label": "Titulo",
+  "instance.form.title.placeholder": "El nombre de tu instancia, por ejemplo \"Ciudad de Springfield\"",
+  "instance.form.summary.label": "Resumen",
+  "instance.form.summary.placeholder": "Una breve descripcion de la instancia que estas creando",
+  "instance.form.image.label": "Imagen",
+  "instance.form.image.placeholder": "http://ruta/a/imagen.png",
+  "instance.form.create.submit": "Crear",
+
+  "instance.success.contenttitle": "¡Felicitaciones!",
   "instance.success.title": "Instancia creada",
+  "instance.success.message": "Has creado tu instancia.",
+  "instance.success.back": "Volver al tablero",
 
   "settings.notifications.title": "Configuración de notificaciones",
   "settings.notifications.get-email-when": "Recibir un correo electrónico cuando",

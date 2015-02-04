@@ -1,26 +1,26 @@
 .newinstance-container.inner-container.small-container
     .title-page
-      h1=t('Create new instance')
+      h1=t('instance.new.contenttitle')
 
     form.form(action="/instances", method="post", role="form", novalidate, autovalidate, autosubmit)
       ul.form-errors
 
       .form-group
-        label= t('URL')
+        label= t('instance.form.url.label')
         .input-group
           input.form-control(type='text', name='username', tabindex=1, validate='required username', autofocus)
-          span.input-group-addon= t('.democracyos.com')
+          span.input-group-addon= instanceDomain
 
       .form-group
-        label= t('Title')
-        input.form-control(type='text', name='title', tabindex=2, placeholder=t('The name of your instance; e.g., "City of Springfield"'), validate='required')
+        label= t('instance.form.title.label')
+        input.form-control(type='text', name='title', tabindex=2, placeholder=t('instance.form.title.placeholder'), validate='required')
 
       .form-group
-        label= t('Summary')
-        textarea.form-control(name='summary', tabindex=3, placeholder=t('A brief description of the purpose of the instance'), validate='required')
+        label= t('instance.form.summary.label')
+        textarea.form-control(name='summary', tabindex=3, placeholder=t('instance.form.summary.placeholder'), validate='required')
 
       .form-group
-        label= t('Image')
-        input.form-control(type='text', name='url', tabindex=4, placeholder=t('http://path/to/image.png'), validate='url')
+        label= t('instance.form.image.label')
+        input.form-control(type='text', name='imageUrl', tabindex=4, placeholder=t('instance.form.image.placeholder'), validate='url')
 
-      .form-group: button.btn.btn-block.btn-primary.btn-lg(tabindex=5)=t('Create')
+      .form-group: button.btn.btn-block.btn-primary.btn-lg(tabindex=5)=t('instance.form.create.submit')
