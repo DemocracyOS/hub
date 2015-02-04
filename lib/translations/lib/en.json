@@ -25,9 +25,25 @@
   "signin.error.user-disabled": "This account has been disabled",
 
   "dashboard.title": "Dashboard",
+  "dashboard.search.placeholder": "Search",
+  "dashboard.action.getdos": "Get DemocracyOS now!",
+  "dashboard.motto": "Be the change you want to see.",
 
+  "instance.new.contenttitle": "Create new instance",
   "instance.new.title": "New instance",
+  "instance.form.url.label": "URL",
+  "instance.form.title.label": "Title",
+  "instance.form.title.placeholder": "The name of your instance; e.g., \"City of Springfield\"'",
+  "instance.form.summary.label": "Summary",
+  "instance.form.summary.placeholder": "A brief description of the purpose of the instance",
+  "instance.form.image.label": "Image",
+  "instance.form.image.placeholder": "http://path/to/image.png",
+  "instance.form.create.submit": "Create",
+
+  "instance.success.contenttitle": "Congratulations!",
   "instance.success.title": "Instance created",
+  "instance.success.message": "You have created your very own instance.",
+  "instance.success.back": "Back to Dashboard",
 
   "settings.notifications.title": "Notifications settings",
   "settings.notifications.get-email-when": "Get an email when",
