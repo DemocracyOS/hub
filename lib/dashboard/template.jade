@@ -1,6 +1,13 @@
 #instances
-  .col-md-12
-    .row
-      h2 Explore
-      .instances.list-group
-      .btn.btn-lg.btn-primary.new.hide Create my DemocracyOS
+  .row
+    .col-md-offset-2.col-md-8
+      .input-group.input-group-lg
+        span.input-group-addon
+          i.glyphicon.glyphicon-search
+        input.form-control.input-lg.search(type='text', placeholder='#{t("dashboard.search.placeholder")}', autofocus)
+  .row.instances.list.well
+    .col-sm-8.col-md-12.call-for-create.text-center
+      .panel.panel-default
+        .panel-body
+          span #{motto}
+            a.btn.btn-primary.new #{t('dashboard.action.getdos')}

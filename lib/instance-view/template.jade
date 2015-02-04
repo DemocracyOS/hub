@@ -1,4 +1,15 @@
-.instance-item
-  a.list-group-item(href='#{url}' data-id='#{id}')
-    h4.list-group-item-heading #{title}
-    p.list-group-item-text #{summary}
+div(class='col-sm-#{6*visibility} col-md-#{4*visibility} instance-item', data-id='#{id}')
+  .thumbnail
+    .crop
+      img(src='#{image}')
+    .caption
+      .category #{category}
+      h3.title
+        span #{title}
+      .badges.hide
+        a(href='#')
+          span.glyphicon.glyphicon-comment
+          span.badge #{participants}
+      p.summary #{summary}
+      .url
+        a.btn.btn-sm #{fancyUrl}
