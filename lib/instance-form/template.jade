@@ -9,6 +9,7 @@
         label= t('instance.form.url.label')
         .input-group
           input.form-control(type='text', name='username', tabindex=1, validate='required username', autofocus)
+          span.error.username-unavailable.hide URL is not available
           span.input-group-addon= instanceDomain
 
       .form-group
