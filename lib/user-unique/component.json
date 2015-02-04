@@ -1,0 +1,16 @@
+{
+  "name": "user-unique",
+  "description": "Attachs to a DOM input element and checks if the username entered already exists ",
+  "dependencies": {
+    "component/emitter": "1.1.3",
+    "component/inherit": "0.0.3"
+  },
+  "locals": [
+    "config",
+    "request"
+  ],
+  "scripts": [
+    "user-unique.js"
+  ],
+  "main": "user-unique.js"
+}
