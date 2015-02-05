@@ -41,7 +41,7 @@
 
   "instance.success.contenttitle": "¡Felicitaciones!",
   "instance.success.title": "Instancia creada",
-  "instance.success.message": "Has creado tu instancia.",
+  "instance.success.message": "Has creado <a href='{url}'>tu instancia</a>.",
   "instance.success.back": "Volver al tablero",
 
   "settings.notifications.title": "Configuración de notificaciones",

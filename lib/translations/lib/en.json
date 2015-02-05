@@ -42,7 +42,7 @@
 
   "instance.success.contenttitle": "Congratulations!",
   "instance.success.title": "Instance created",
-  "instance.success.message": "You have created your very own instance.",
+  "instance.success.message": "You have created your <a href='{url}'>very own instance</a>.",
   "instance.success.back": "Back to Dashboard",
 
   "settings.notifications.title": "Notifications settings",
