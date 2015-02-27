@@ -2,6 +2,7 @@
   "name": "header",
   "dependencies": {
     "component/dom": "^1.0.6",
+    "logo/logo": "0.0.1",
     "democracyos/headroom.js": "0.7.1"
   },
   "scripts": [
@@ -16,6 +17,7 @@
     "snapper",
     "view"
   ],
+  "images": [ "images/logo.png" ],
   "templates": [ "template.jade" ],
   "styles": [ "header.styl" ],
   "main": "header.js"
