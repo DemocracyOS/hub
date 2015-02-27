@@ -23,10 +23,10 @@
   "signin.error.email-not-valid": "La dirección de correo electrónico no ha sido validada. A cada ciudadano se le envía un correo electrónico de bienvenida al momento de registrarse. El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto. Cliquea <a href='/signup/resend-validation-email'>aquí</a> si necesitás que te reenviemos el correo electrónico de bienvenida",
   "signin.error.user-disabled": "Esta cuenta ha sido deshabilitada",
 
-  "dashboard.title": "Tablero",
-  "dashboard.search.placeholder": "Buscar",
-  "dashboard.action.getdos": "Obtener DemocracyOS ahora",
-  "dashboard.motto": "Se el cambio que queres ver.",
+  "newsfeed.title": "Noticias",
+  "newsfeed.search.placeholder": "Buscar",
+  "newsfeed.action.getdos": "Obtener DemocracyOS ahora",
+  "newsfeed.motto": "Se el cambio que queres ver.",
 
   "instance.new.contenttitle": "Crear nueva instancia",
   "instance.new.title": "Nueva instancia",

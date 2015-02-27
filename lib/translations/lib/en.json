@@ -24,10 +24,10 @@
   "signin.error.email-not-valid": "The email address for this citizen is not validated. We send citizens a welcome email when they sign up. Please check your email (remember to check your spam folder too) and click on the link supplied on the email. Click <a href='/signup/resend-validation-email'>here</a> if you need the welcome email to be resent",
   "signin.error.user-disabled": "This account has been disabled",
 
-  "dashboard.title": "Dashboard",
-  "dashboard.search.placeholder": "Search",
-  "dashboard.action.getdos": "Get DemocracyOS now!",
-  "dashboard.motto": "Be the change you want to see.",
+  "newsfeed.title": "Newsfeed",
+  "newsfeed.search.placeholder": "Search",
+  "newsfeed.action.getdos": "Get DemocracyOS now!",
+  "newsfeed.motto": "Be the change you want to see.",
 
   "instance.new.contenttitle": "Create new instance",
   "instance.new.title": "New instance",

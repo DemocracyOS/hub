@@ -1,0 +1,17 @@
+{
+  "name": "newsfeed",
+  "dependencies": {
+    "component/dom": "1.0.6",
+    "component/t": "1.0.0",
+    "visionmedia/page.js": "1.5.0"
+  },
+  "locals": [
+    "title",
+    "user",
+    "view"
+  ],
+  "styles": [ "newsfeed.styl" ],
+  "scripts": [ "newsfeed.js", "view.js" ],
+  "templates": [ "template.jade" ],
+  "main": "newsfeed.js"
+}
