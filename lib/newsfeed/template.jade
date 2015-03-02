@@ -1,3 +1,14 @@
-.container.newsfeed
+.container.newsfeeds
   - each feed in feeds
-    p=feed.mediaTitle
+    .row
+      article.col-xs-12.col-md-8.col-md-offset-2.newsfeed
+        header
+          a(href='#{feed.url}/law/#{feed.id}', target='_blank'): h1=feed.mediaTitle
+          small
+            i.glyphicon.glyphicon-user
+            | #{ feed.participants.length } Participants
+          small
+            i.glyphicon.glyphicon-tag
+            | #{ feed.tag.name }
+        section
+          p=feed.summary
