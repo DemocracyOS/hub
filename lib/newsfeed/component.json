@@ -3,7 +3,6 @@
   "dependencies": {
     "component/dom": "1.0.6",
     "component/t": "1.0.0",
-    "DemocracyOS/corner-ribbon": "0.0.1",
     "visionmedia/page.js": "1.5.0"
   },
   "locals": [

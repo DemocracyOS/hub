@@ -12,7 +12,6 @@
     - var url = feed.url + '/law/' + feed.id;
     .row
       article.col-xs-12.col-md-8.col-md-offset-2.newsfeed
-        .corner-ribbon.top-right.shadow=t('common.new')
         header
           h1: a(href='#{url}', target='_blank')=feed.mediaTitle
           small
