@@ -5,6 +5,9 @@
   "common.name": "DemocracyOS Hub",
   "common.no-user-for-email" : "No tenemos registrado ese correo electrónico",
   "common.please.wait": "Por favor espere",
+  "common.close": "Cierra",
+  "common.closed": "Cerrado",
+  "common.new": "Nuevo",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Entrar",
@@ -23,10 +26,10 @@
   "signin.error.email-not-valid": "La dirección de correo electrónico no ha sido validada. A cada ciudadano se le envía un correo electrónico de bienvenida al momento de registrarse. El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto. Cliquea <a href='/signup/resend-validation-email'>aquí</a> si necesitás que te reenviemos el correo electrónico de bienvenida",
   "signin.error.user-disabled": "Esta cuenta ha sido deshabilitada",
 
-  "dashboard.title": "Tablero",
-  "dashboard.search.placeholder": "Buscar",
-  "dashboard.action.getdos": "Obtener DemocracyOS ahora",
-  "dashboard.motto": "Se el cambio que queres ver.",
+  "newsfeed.title": "Noticias",
+  "newsfeed.search.placeholder": "Buscar",
+  "newsfeed.action.getdos": "Obtener DemocracyOS ahora",
+  "newsfeed.motto": "Se el cambio que queres ver.",
 
   "instance.new.contenttitle": "Crear nueva instancia",
   "instance.new.title": "Nueva instancia",
@@ -95,5 +98,13 @@
   "password.new": "Nueva contraseña",
   "password.retype": "Reingresa la nueva contraseña",
   "password": "Password",
-  "password.repeat": "Repetir contraseña"
+  "password.repeat": "Repetir contraseña",
+
+  "feed.unknown-closing-date": "Fecha de cierre desconocida",
+  "feed.participant.plural": "Participantes",
+  "feed.participant.singular": "Participante",
+  "feed.call-to-action.positive": "Votado positivo",
+  "feed.call-to-action.negative": "Votado negativo",
+  "feed.call-to-action.neutral": "Votado abstención",
+  "feed.call-to-action.participate": "Participa"
 }

@@ -1,6 +1,6 @@
 /* Vars
 -------------------------------------------------- */
-header_height = 60px
+header_height = 65px
 spacing = 20px
 
 /* Header
@@ -18,22 +18,17 @@ header.app-header
   font-weight bold
   text-transform uppercase
   font-size 12px
+  box-shadow rgba(0, 0, 0, 0.70) 0px 0px 10px 0px
 
   a
     color white
     &:hover
       color white
-
-  h1
-    display inline-block
-    width 300px
-    font-size 12px
-    margin-top 12px
-    .logo
-      height 40px
-      display inline-block
-      margin-right 10px
-      margin-top -2px
+    &.logo
+      width 200px
+      height 58px
+      > *
+        background-image url('images/logo.png')
 
   .user-nav
     display inline-block
@@ -50,7 +45,7 @@ header.app-header
     .login
       padding 6px 12px
       display inline-block
-      margin-top 15px
+      margin-top 20px
       i
         display none
         font-size 20px

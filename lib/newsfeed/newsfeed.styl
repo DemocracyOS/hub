@@ -1,0 +1,96 @@
+body.newsfeed
+  background #ccc
+
+.newsfeeds
+  color black
+
+  .newsfeed
+    background white
+    margin-bottom 22px
+    padding 10px
+    overflow hidden
+
+    header
+      font-family 'Droid Sans'
+      h1
+        color rgb(51, 51, 51)
+        font-size 25px
+        margin 0 0 6px 0
+        a, a:hover
+          color black
+          font-weight normal
+
+      small
+        display inline-block
+        margin-right 12px
+
+        i
+          margin-right 4px
+
+      .tag
+        background #ccc
+        border-radius 10px
+        color #fff
+        padding 3px 9px
+        text-transform capitalize
+        &:hover
+          background-color #969696
+
+      .closing-at
+        font-size 12px
+
+        &.closed
+          color red
+        &.closing
+          color #f8af3c
+        &.unknown
+          color #ababab
+
+    .summary
+      font-size 15px
+      margin 6px 0
+
+    .share-links
+      a
+        background #ccc
+        padding 10px
+        margin-right 10px
+        border-radius 100%
+        color white
+        display inline-block
+        line-height 10px
+        -webkit-transition all 0.3s ease
+        &:hover
+          text-decoration none
+        &.facebook:hover
+          background #3b5998
+        &.twitter:hover
+          background #3498db
+
+    .call-to-action
+      .btn
+        color #fff
+        font-weight bold
+        padding 6px 12px
+        text-transform uppercase
+
+        &.positive
+          background-color #a4cb53
+          border-color #aed167
+          &:hover
+            background-color #aed167
+        &.negative
+          background-color #d03630
+          border-color #d95e59
+          &:hover
+            background-color #d95e59
+        &.neutral
+          background-color #3498db
+          border-color #5faee3
+          &:hover
+            background-color #5faee3
+        &.unvoted
+          background-color #8156a6
+          border-color #a573d1
+          &:hover
+            background-color #a573d1
