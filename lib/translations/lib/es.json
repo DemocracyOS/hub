@@ -5,6 +5,9 @@
   "common.name": "DemocracyOS Hub",
   "common.no-user-for-email" : "No tenemos registrado ese correo electrónico",
   "common.please.wait": "Por favor espere",
+  "common.close": "Cierra",
+  "common.closed": "Cerrado",
+  "common.new": "Nuevo",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Entrar",
@@ -95,5 +98,13 @@
   "password.new": "Nueva contraseña",
   "password.retype": "Reingresa la nueva contraseña",
   "password": "Password",
-  "password.repeat": "Repetir contraseña"
+  "password.repeat": "Repetir contraseña",
+
+  "feed.unknown-closing-date": "Fecha de cierre desconocida",
+  "feed.participant.plural": "Participantes",
+  "feed.participant.singular": "Participante",
+  "feed.call-to-action.positive": "Votado positivo",
+  "feed.call-to-action.negative": "Votado negativo",
+  "feed.call-to-action.neutral": "Votado abstención",
+  "feed.call-to-action.participate": "Participa"
 }

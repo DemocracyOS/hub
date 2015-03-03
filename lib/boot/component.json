@@ -3,10 +3,13 @@
   "description": "Application Booting component.",
   "dependencies": {
     "component/t": "^1.0.0",
+    "DemocracyOS/timeago": "master",
     "visionmedia/page.js": "1.5.0"
   },
   "locals": [
+    "body-classes",
     "config",
+    "flaticons",
     "header",
     "homepage",
     "newsfeed",

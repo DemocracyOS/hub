@@ -5,6 +5,9 @@
   "common.name": "DemocracyOS Hub",
   "common.no-user-for-email" : "No user found for that email address",
   "common.please.wait": "Please wait",
+  "common.close": "Closes",
+  "common.closed": "Closed",
+  "common.new": "New",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Login",
@@ -101,5 +104,13 @@
   "password.new": "New Password",
   "password.retype": "Retype new password",
   "password": "Password",
-  "password.repeat": "Repeat password"
+  "password.repeat": "Repeat password",
+
+  "feed.unknown-closing-date": "Unknown closing date",
+  "feed.participant.plural": "Participants",
+  "feed.participant.singular": "Participant",
+  "feed.call-to-action.positive": "Voted yes",
+  "feed.call-to-action.negative": "Voted no",
+  "feed.call-to-action.neutral": "Abstained",
+  "feed.call-to-action.participate": "Participate"
 }
