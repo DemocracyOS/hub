@@ -1,5 +1,6 @@
 .container.newsfeeds
-  .start-democracy-container
+  - if (user.logged())
+    .start-democracy-container
   - each feed in feeds
     - var positives = feed.upvotes || []
     - var negatives = feed.downvotes || []
