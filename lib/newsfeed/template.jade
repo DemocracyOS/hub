@@ -1,4 +1,5 @@
 .container.newsfeeds
+  .start-democracy-container
   - each feed in feeds
     - var positives = feed.upvotes || []
     - var negatives = feed.downvotes || []
@@ -43,7 +44,7 @@
                 - var vote = 'neutral'
                 - var text = t('feed.call-to-action.neutral')
             - else
-              - var vote = 'unvoted'
+              - var vote = 'purple'
               - var text = t('feed.call-to-action.participate')
             a.btn.btn-default.pull-right(class=vote, href=url)=text
           .share-links.text-right.pull-right
