@@ -106,5 +106,6 @@
   "feed.call-to-action.positive": "Votado positivo",
   "feed.call-to-action.negative": "Votado negativo",
   "feed.call-to-action.neutral": "Votado abstención",
-  "feed.call-to-action.participate": "Participa"
+  "feed.call-to-action.participate": "Participa",
+  "feed.call-to-action.start-a-democracy": "Inicia una democracia"
 }

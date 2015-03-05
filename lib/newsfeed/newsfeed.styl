@@ -10,6 +10,33 @@ body.newsfeed
     padding 10px
     overflow hidden
 
+    &.start
+      .profile
+        margin-left 3px
+        img
+          width 50px
+          border-radius 100px
+        span.name
+          display inline
+          margin-left 10px
+          font-weight bold
+          font-size 12px
+          line-height 20px
+          padding-top 4px
+          padding-right 12px
+          max-width 150px
+      .name
+        height 50px
+        line-height 50px
+        margin-left 12px
+        color #40a660
+        font-family 'Open Sans', sans-serif
+        font-size 12px
+      .btn
+        height 50px
+        line-height 50px
+        padding 0 12px
+
     header
       font-family 'Droid Sans'
       h1
@@ -67,30 +94,29 @@ body.newsfeed
         &.twitter:hover
           background #3498db
 
-    .call-to-action
-      .btn
-        color #fff
-        font-weight bold
-        padding 6px 12px
-        text-transform uppercase
+    .btn
+      color #fff
+      font-weight bold
+      padding 6px 12px
+      text-transform uppercase
 
-        &.positive
-          background-color #a4cb53
-          border-color #aed167
-          &:hover
-            background-color #aed167
-        &.negative
-          background-color #d03630
-          border-color #d95e59
-          &:hover
-            background-color #d95e59
-        &.neutral
-          background-color #3498db
-          border-color #5faee3
-          &:hover
-            background-color #5faee3
-        &.unvoted
-          background-color #8156a6
-          border-color #a573d1
-          &:hover
-            background-color #a573d1
+      &.positive
+        background-color #a4cb53
+        border-color #aed167
+        &:hover
+          background-color #aed167
+      &.negative
+        background-color #d03630
+        border-color #d95e59
+        &:hover
+          background-color #d95e59
+      &.neutral
+        background-color #3498db
+        border-color #5faee3
+        &:hover
+          background-color #5faee3
+      &.purple
+        background-color #8156a6
+        border-color #a573d1
+        &:hover
+          background-color #a573d1
