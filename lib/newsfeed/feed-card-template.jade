@@ -1,0 +1,68 @@
+- var positives = feed.upvotes || []
+- var negatives = feed.downvotes || []
+- var neutrals = feed.abstentions || []
+- var census = neutrals.concat(negatives).concat(positives) || []
+
+- var participants = feed.participants || []
+
+- var closed = feed.closingAt && +new Date(feed.closingAt) < Date.now()
+- var voted = user.id && ~census.indexOf(user.id)
+- var url = feed.url + '/law/' + feed.id;
+.row
+  article.col-xs-12.col-md-8.col-md-offset-2.newsfeed
+    header
+      h1: a(href='#{url}', target='_blank')=feed.mediaTitle
+      small
+        i.glyphicon.glyphicon-user
+        - var cardinality = participants.length ? 'singular' : 'plural'
+        | #{ feed.participants.length } #{t('feed.participant.' + cardinality)}
+      small.tag
+        i.glyphicon.glyphicon-tag
+        | #{ feed.tag.name }
+      small.closing-at(class=closed ? 'closed' : (feed.closingAt ? 'closing' : 'unknown'))
+        i.glyphicon.glyphicon-time
+        - if (feed.closingAt)
+          span.time-ago-label= (closed ? t('common.closed') : t('common.close')) + " "
+          span.meta-item.meta-timeago.ago(data-time=feed.closingAt.toString())
+        - else
+          span.meta-item.meta-timeago.unknown= t('feed.unknown-closing-date')
+    section
+      - if (feed.type == 'law-published' || feed.type == 'law-voted')
+        p.summary!=feed.summary
+      - else if (feed.type == 'law-commented')
+        p.comment #{feed.data.comment}
+          .arrow-down
+    footer
+      - if (feed.data.user)
+        - if (feed.type == 'law-voted')
+          - var color = feed.data.vote == 'positive' ? 'positive' : (feed.data.vote == 'negative' ? 'negative' : 'neutral')
+          .vote-bubble(class=color) Voted yes
+          .arrow-down
+        .profile.pull-left
+          img(src=feed.data.user.avatar)
+        a.name.pull-left(href='#')=feed.data.user.fullName
+      .call-to-action
+        - if (feed.type == 'law-commented')
+          a.btn.btn-default.pull-right.purple(href=url)=t('feed.call-to-action.reply')
+        - else
+          - if (closed)
+            a.btn.btn-default.pull-right.see-results(href=url)=t('feed.call-to-action.see-results')
+          - else
+            - if (voted)
+              - if(~positives.indexOf(user.id))
+                - var vote = 'positive'
+                - var text = t('feed.call-to-action.positive')
+              - else if (~negatives.indexOf(user.id))
+                - var vote = 'negative'
+                - var text = t('feed.call-to-action.negative')
+              - else if (~neutrals.indexOf(user.id))
+                - var vote = 'neutral'
+                - var text = t('feed.call-to-action.neutral')
+            - else
+              - var vote = 'purple'
+              - var text = t('feed.call-to-action.participate')
+            a.btn.btn-default.pull-right(class=vote, href=url)=text
+      .share-links.text-right.pull-right
+        a(target="_blank", href="http://www.facebook.com/sharer.php?u=#{url}").flaticon.social.facebook
+        a(target="_blank", href="http://twitter.com/share?text=#{feed.mediaTitle}&url=#{url}").flaticon.social.twitter
+      

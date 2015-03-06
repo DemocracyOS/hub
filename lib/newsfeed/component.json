@@ -12,7 +12,7 @@
     "view"
   ],
   "styles": [ "newsfeed.styl" ],
-  "scripts": [ "newsfeed.js", "view.js", "start-democracy.js" ],
-  "templates": [ "template.jade", "start-democracy-template.jade" ],
+  "scripts": [ "newsfeed.js", "view.js", "feed-card.js" ],
+  "templates": [ "template.jade", "feed-card-template.jade" ],
   "main": "newsfeed.js"
 }
