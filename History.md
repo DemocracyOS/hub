@@ -1,4 +1,11 @@
 
+0.0.3 / 2015-03-06
+==================
+
+  * [feed] - Add different feed cards for each feed type
+  * [jwt] - Store jwt in cookies to work out between hub and DemocracyOS
+  * [start-democracy] - Add call to action button on newsfeed
+
 0.0.2 / 2015-03-04
 ==================
 
