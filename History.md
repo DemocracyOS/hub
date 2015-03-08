@@ -1,4 +1,9 @@
 
+0.0.5 / 2015-03-08
+==================
+
+  * Fix calling next() no an error decoding jwt so it continues but without loading the user into the request
+
 0.0.4 / 2015-03-07
 ==================
 
