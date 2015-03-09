@@ -36,8 +36,6 @@
   "instance.form.url.label": "URL",
   "instance.form.title.label": "Titulo",
   "instance.form.title.placeholder": "El nombre de tu instancia, por ejemplo \"Ciudad de Springfield\"",
-  "instance.form.summary.label": "Resumen",
-  "instance.form.summary.placeholder": "Una breve descripcion de la instancia que estas creando",
   "instance.form.image.label": "Imagen",
   "instance.form.image.placeholder": "http://ruta/a/imagen.png",
   "instance.form.create.submit": "Crear",

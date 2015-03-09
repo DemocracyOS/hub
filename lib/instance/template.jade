@@ -1,0 +1,27 @@
+main.container
+  .row
+    article.feed-item.col-xs-12.col-md-8.col-md-offset-2.instance-new-form
+      .feed-top
+        h1.feed-title Constitution
+        p.feed-desc Settings and rules that apply to all proposals in this democracy.
+
+      form.form(action="/instances", method="post", role="form", novalidate, autovalidate, autosubmit)
+        h2.feed-subtitle Democracy Info
+        ul.form-errors
+
+        fieldset
+          label= t('instance.form.url.label')
+          .input-group
+            input(type='text', name='username', tabindex=1, validate='required username', autofocus)
+            span.error.username-unavailable.hide URL is not available
+            span.input-group-addon= instanceDomain
+
+        fieldset
+          label= t('instance.form.title.label')
+          input(type='text', name='title', tabindex=2, placeholder=t('instance.form.title.placeholder'), validate='required')
+
+        fieldset
+          label= t('instance.form.image.label')
+          input(type='text', name='imageUrl', tabindex=4, placeholder=t('instance.form.image.placeholder'), validate='url')
+
+        button.btn.btn-block.btn-primary.btn-lg(tabindex=5)=t('instance.form.create.submit')

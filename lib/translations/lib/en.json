@@ -37,8 +37,6 @@
   "instance.form.url.label": "URL",
   "instance.form.title.label": "Title",
   "instance.form.title.placeholder": "The name of your instance; e.g., \"City of Springfield\"'",
-  "instance.form.summary.label": "Summary",
-  "instance.form.summary.placeholder": "A brief description of the purpose of the instance",
   "instance.form.image.label": "Image",
   "instance.form.image.placeholder": "http://path/to/image.png",
   "instance.form.create.submit": "Create",
