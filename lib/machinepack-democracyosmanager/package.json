@@ -1,0 +1,31 @@
+{
+  "name": "machinepack-democracyosmanager",
+  "version": "0.1.0",
+  "description": "Communicate with a DemocracyOS Manager API to manage Instances.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "DemocracyOS Manager",
+    "machines",
+    "machinepack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^3.0.0",
+    "mout": "^0.11.0",
+    "superagent": "^0.21.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "machinepack": {
+    "friendlyName": "DemocracyOS Manager",
+    "machineDir": "machines/",
+    "machines": [
+      "create-instance",
+      "delete-instance"
+    ]
+  }
+}
