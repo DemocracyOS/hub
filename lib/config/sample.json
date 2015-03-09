@@ -27,6 +27,10 @@
     "url": "http://localhost:9001/api/events",
     "token": 1234
   },
+  "manager": {
+    "url": "http://localhost:8989/",
+    "token": "1234"
+  },
   "ssl": {
     "serverKey": "server.key",
     "serverCert": "server.crt",
