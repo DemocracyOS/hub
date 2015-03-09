@@ -14,7 +14,7 @@
     "jwt",
     "title",
     "user",
-    "user-unique"
+    "instance-unique"
   ],
   "scripts": [
     "instance.js",
