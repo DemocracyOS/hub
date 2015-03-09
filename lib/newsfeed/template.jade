@@ -5,5 +5,8 @@
         .profile.pull-left
           img(src=user.gravatar)
         a.name.pull-left(href='#') #{user.firstName} #{user.lastName}
-        a.btn.purple.pull-right(href='/instances/new')=t('feed.call-to-action.start-a-democracy')
+        - if (instance)
+          a.go-to-instance.pull-right.glyphicon.glyphicon-share-alt(href=instance.url, target='_blank') #{instance.title}
+        - else
+          a.btn.purple.pull-right(href='/instances/new')=t('feed.call-to-action.start-a-democracy')
   .feeds
