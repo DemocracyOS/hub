@@ -3,7 +3,8 @@
   "description": "Settings instances view",
   "dependencies": {
     "visionmedia/debug": "2.1.0",
-    "component/t": "1.0.0"
+    "component/t": "1.0.0",
+    "segmentio/modal": "0.4.1"
   },
   "locals": [
     "render",
@@ -13,10 +14,13 @@
   ],
   "templates": [
     "instance-row.jade",
-    "template.jade"
+    "template.jade",
+    "delete-modal.jade"
   ],
   "scripts": [
-    "view.js"
+    "view.js",
+    "instance-row-view.js",
+    "delete-modal-view.js"
   ],
   "styles": [
     "styles.styl"

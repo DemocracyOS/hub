@@ -8,6 +8,8 @@
   "common.close": "Cierra",
   "common.closed": "Cerrado",
   "common.new": "Nuevo",
+  "common.confirm": "Confirmar",
+  "common.cancel": "Cancelar",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Entrar",
@@ -113,5 +115,9 @@
   "settings.sidebar.password": "Contraseña",
   "settings.sidebar.sessions": "Sesiones",
   "settings.sidebar.notifications": "Notificaciones",
-  "settings.sidebar.instances": "Instancias"
+  "settings.sidebar.instances": "Instancias",
+
+  "settings-instances.delete.confirmation.title": "Eliminar instancia",
+  "settings-instances.delete.confirmation.body": "Una vez eliminada, no hay vuelta atrás. Proceder con precaución.",
+  "settings-instances.delete.confirmation.instructions": "Por favor ingrese el nombre de la instancia para confirmar."
 }

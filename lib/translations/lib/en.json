@@ -8,6 +8,8 @@
   "common.close": "Closes",
   "common.closed": "Closed",
   "common.new": "New",
+  "common.confirm": "Confirm",
+  "common.cancel": "Cancel",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Login",
@@ -119,5 +121,9 @@
   "settings.sidebar.password": "Password",
   "settings.sidebar.sessions": "Sessions",
   "settings.sidebar.notifications": "Notifications",
-  "settings.sidebar.instances": "Instances"
+  "settings.sidebar.instances": "Instances",
+
+  "settings-instances.delete.confirmation.title": "Delete instance",
+  "settings-instances.delete.confirmation.body": "Once you delete an instance, there is no going back. Please be certain.",
+  "settings-instances.delete.confirmation.instructions": "Please type in the name of the repository to confirm."
 }
