@@ -9,7 +9,8 @@
     "feeds",
     "title",
     "user",
-    "view"
+    "view",
+    "request"
   ],
   "styles": [ "newsfeed.styl" ],
   "scripts": [ "newsfeed.js", "view.js", "feed-card.js" ],
