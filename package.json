@@ -40,7 +40,7 @@
     "passport-twitter": "~1.0.2",
     "passport-local": "~0.1.6",
     "passport-local-mongoose": "~0.2.4",
-    "mongoose": "~3.8.19",
+    "mongoose": "3.8.24",
     "mongoose-gravatar": "~0.2.1",
     "connect-mongo": "0.4.1",
     "string-to-js": "0.0.1",
