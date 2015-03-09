@@ -11,7 +11,8 @@
     "render",
     "settings-profile",
     "settings-password",
-    "settings-notifications"
+    "settings-notifications",
+    "settings-instances"
   ],
   "scripts": [ "settings.js" ],
   "styles": [ "settings.styl", "settings-sidebar.styl", "settings-heading.styl", "settings-responsive.styl" ],
