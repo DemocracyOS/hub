@@ -10,6 +10,7 @@
   "common.new": "Nuevo",
   "common.confirm": "Confirmar",
   "common.cancel": "Cancelar",
+  "common.error": "Error",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Entrar",
@@ -119,5 +120,6 @@
 
   "settings-instances.delete.confirmation.title": "Eliminar instancia",
   "settings-instances.delete.confirmation.body": "Una vez eliminada, no hay vuelta atrás. Proceder con precaución.",
-  "settings-instances.delete.confirmation.instructions": "Por favor ingrese el nombre de la instancia para confirmar."
+  "settings-instances.delete.confirmation.instructions": "Por favor ingrese el nombre de la instancia para confirmar.",
+  "settings-instances.delete.confirmation.names.mismatch": "Los nombres no coinciden"
 }

@@ -10,6 +10,7 @@
   "common.new": "New",
   "common.confirm": "Confirm",
   "common.cancel": "Cancel",
+  "common.error": "Error",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Login",
@@ -125,5 +126,6 @@
 
   "settings-instances.delete.confirmation.title": "Delete instance",
   "settings-instances.delete.confirmation.body": "Once you delete an instance, there is no going back. Please be certain.",
-  "settings-instances.delete.confirmation.instructions": "Please type in the name of the repository to confirm."
+  "settings-instances.delete.confirmation.instructions": "Please type in the name of the repository to confirm.",
+  "settings-instances.delete.confirmation.names.mismatch": "Names do not match"
 }
