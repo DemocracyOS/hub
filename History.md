@@ -1,4 +1,11 @@
 
+0.0.6 / 2015-03-09
+==================
+
+  * Add DemocracyOS Manager Machine Pack
+  * Add instance creation form
+  * Add instance remove form
+
 0.0.5 / 2015-03-08
 ==================
 
