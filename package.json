@@ -1,6 +1,6 @@
 {
   "name": "hub",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "DemocracyOS Hub: user interface to spawn and manage DemocracyOS instances",
   "main": "index.js",
   "repository": {
@@ -62,7 +62,8 @@
     "serve-favicon": "2.1.7",
     "string-to-js": "0.0.1",
     "stylus": "0.49.3",
-    "t-component": "1.0.0"
+    "t-component": "1.0.0",
+    "democracyos-db": "0.0.1"
   },
   "scripts": {
     "postinstall": "node ./bin/hub-install && node ./bin/hub-config && node ./bin/hub-build"
