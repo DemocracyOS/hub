@@ -3,67 +3,148 @@
 header_height = 65px
 
 body
-	-webkit-font-smoothing antialiased
-	font-family "Open Sans"
-	padding-top header_height
-	transition all ease .3s
+  -webkit-font-smoothing antialiased
+  font-family "Open Sans"
+  padding-top header_height
+  transition all ease .3s
 
-h1,h2,h3
-	font-weight 100
+h1,
+h2,
+h3
+  font-weight 100
 
 a
-	font-weight bold
+  font-weight bold
 
 .btn
-	letter-spacing 2px
-	text-transform uppercase
+  text-transform uppercase
+
+  &.purple
+    background-color #8156a6
+    border-color #a573d1
+    color #fff
+    &:hover
+      background-color #a573d1
+    + .arrow-down
+      border-top-color #8156a6
 
 header
-	h5
-		font-size 11px
-		font-style italic
-		opacity .6
-		a
-			font-weight normal
+  h5
+    font-size 11px
+    font-style italic
+    opacity .6
+    a
+      font-weight normal
 
 .site-content
-	margin 30px auto
-	.description
-		font-size 18px
-		line-height 26px
-		margin-bottom 30px
-	h4
-		margin-top 30px
-	.social-login
-		.btn
-			margin-right 20px
-			font-size 11px
+  margin 30px auto
+  .description
+    font-size 18px
+    line-height 26px
+    margin-bottom 30px
+  h4
+    margin-top 30px
+  .social-login
+    .btn
+      margin-right 20px
+      font-size 11px
 
-	a.btn.btn-get-started
-		border 0
-		background white
-		color black
-		font-size 12px
-		padding 20px 30px
+  a.btn.btn-get-started
+    border 0
+    background white
+    color black
+    font-size 12px
+    padding 20px 30px
 
-	pre.code-box
-		text-align left
-		border 0
-		padding 20px
-		border-radius 0
-		margin-top 20px
-		h5
-			margin-top 0
-		p
-			padding-left 0
+  pre.code-box
+    text-align left
+    border 0
+    padding 20px
+    border-radius 0
+    margin-top 20px
+    h5
+      margin-top 0
+    p
+      padding-left 0
 
-	.share-links
-		iframe
-			margin-right 20px
+  .share-links
+    iframe
+      margin-right 20px
 
-	.arrow-down
-		width 0
-		height 0
-		border-left 10px solid transparent
-		border-right 10px solid transparent
-		border-top 10px solid #f00
+  .arrow-down
+    width 0
+    height 0
+    border-left 10px solid transparent
+    border-right 10px solid transparent
+    border-top 10px solid #f00
+
+/* `component/confirmation` adjust styles
+-------------------------------------------------- */
+/* `component/confirmation` adjust styles
+-------------------------------------------------- */
+body
+  .Overlay
+    background radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.55) 100%)
+    z-index 9999998
+  .Modal
+    position fixed
+    display block
+    max-width 500px
+    min-width 250px
+    left 50%
+    top 150px
+    right initial
+    bottom initial
+    background #FFF
+    box-shadow 2px 2px 5px rgba(0,0,0,.4)
+    border 0px
+    overflow initial
+    z-index 9999999
+    p
+      font-size 1.1em
+    .content
+      padding 0px 20px 10px 20px
+      margin-top 30px
+      .title
+        position absolute
+        left 0px
+        right 0px
+        top 0px
+        min-height 20px
+        padding 5px 20px
+        background #D95E59
+        color #FFF
+        text-transform uppercase
+        font-weight 600
+      .body
+        padding 20px 0px
+        // margin-top 30px
+      .close
+        line-height 10px
+        top 10px
+        right 10px
+        font-weight 600
+        color #000
+        opacity .5
+    .confirmation-actions
+      padding 5px 10px
+      text-align right
+
+      button
+        border none
+        color #FFF
+        background #aaa
+        padding 5px 10px
+        letter-spacing 0.09em
+        text-transform uppercase
+        font-size 0.7em
+        outline none
+        margin-left 5px
+        &.cancel
+          outline none
+          &:focus, &:hover
+            background #777
+        &.main, &.ok
+          background #D95E59
+          &:focus, &:hover
+            background #952722

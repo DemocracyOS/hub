@@ -8,6 +8,9 @@
   "common.close": "Cierra",
   "common.closed": "Cerrado",
   "common.new": "Nuevo",
+  "common.confirm": "Confirmar",
+  "common.cancel": "Cancelar",
+  "common.error": "Error",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Entrar",
@@ -36,8 +39,6 @@
   "instance.form.url.label": "URL",
   "instance.form.title.label": "Titulo",
   "instance.form.title.placeholder": "El nombre de tu instancia, por ejemplo \"Ciudad de Springfield\"",
-  "instance.form.summary.label": "Resumen",
-  "instance.form.summary.placeholder": "Una breve descripcion de la instancia que estas creando",
   "instance.form.image.label": "Imagen",
   "instance.form.image.placeholder": "http://ruta/a/imagen.png",
   "instance.form.create.submit": "Crear",
@@ -109,5 +110,16 @@
   "feed.call-to-action.participate": "Participa",
   "feed.call-to-action.start-a-democracy": "Inicia una democracia",
   "feed.call-to-action.see-results": "Ver resultados",
-  "feed.call-to-action.reply": "Responde"
+  "feed.call-to-action.reply": "Responde",
+
+  "settings.sidebar.profile": "Perfil",
+  "settings.sidebar.password": "Contraseña",
+  "settings.sidebar.sessions": "Sesiones",
+  "settings.sidebar.notifications": "Notificaciones",
+  "settings.sidebar.instances": "Instancias",
+
+  "settings-instances.delete.confirmation.title": "Eliminar instancia",
+  "settings-instances.delete.confirmation.body": "Una vez eliminada, no hay vuelta atrás. Proceder con precaución.",
+  "settings-instances.delete.confirmation.instructions": "Por favor ingrese el nombre de la instancia para confirmar.",
+  "settings-instances.delete.confirmation.names.mismatch": "Los nombres no coinciden"
 }

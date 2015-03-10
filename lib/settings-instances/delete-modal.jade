@@ -1,0 +1,15 @@
+.content
+  .title=t('settings-instances.delete.confirmation.title')
+    a(href='#').close.cancel
+      | &times;
+  .body
+    p=t('settings-instances.delete.confirmation.body')
+    p=t('settings-instances.delete.confirmation.instructions')
+    .form-group
+      input.instance-name.form-control(type='text', name='instance', autofocus)
+    .alert.alert-danger.hide.error
+      strong=t('common.error') + ' '
+      =t('settings-instances.delete.confirmation.names.mismatch')
+  .confirmation-actions
+    button.cancel=t('common.cancel')
+    button.ok.main=t('common.confirm')

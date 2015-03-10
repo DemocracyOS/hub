@@ -1,0 +1,26 @@
+{
+  "name": "instance",
+  "description": "instance pages",
+  "dependencies": {
+    "component/dom": "^1.0.6",
+    "visionmedia/page.js": "1.5.0",
+    "component/t": "1.0.0"
+  },
+  "locals": [
+    "render",
+    "view",
+    "form-view",
+    "config",
+    "jwt",
+    "title",
+    "user",
+    "instance-unique"
+  ],
+  "scripts": [
+    "instance.js",
+    "view.js"
+  ],
+  "templates": [ "template.jade" ],
+  "styles": [ "instance.styl" ],
+  "main": "instance.js"
+}

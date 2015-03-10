@@ -8,6 +8,9 @@
   "common.close": "Closes",
   "common.closed": "Closed",
   "common.new": "New",
+  "common.confirm": "Confirm",
+  "common.cancel": "Cancel",
+  "common.error": "Error",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Login",
@@ -37,8 +40,6 @@
   "instance.form.url.label": "URL",
   "instance.form.title.label": "Title",
   "instance.form.title.placeholder": "The name of your instance; e.g., \"City of Springfield\"'",
-  "instance.form.summary.label": "Summary",
-  "instance.form.summary.placeholder": "A brief description of the purpose of the instance",
   "instance.form.image.label": "Image",
   "instance.form.image.placeholder": "http://path/to/image.png",
   "instance.form.create.submit": "Create",
@@ -115,5 +116,16 @@
   "feed.call-to-action.participate": "Participate",
   "feed.call-to-action.start-a-democracy": "Start a democracy",
   "feed.call-to-action.see-results": "See results",
-  "feed.call-to-action.reply": "Reply this"
+  "feed.call-to-action.reply": "Reply this",
+
+  "settings.sidebar.profile": "Profile",
+  "settings.sidebar.password": "Password",
+  "settings.sidebar.sessions": "Sessions",
+  "settings.sidebar.notifications": "Notifications",
+  "settings.sidebar.instances": "Instances",
+
+  "settings-instances.delete.confirmation.title": "Delete instance",
+  "settings-instances.delete.confirmation.body": "Once you delete an instance, there is no going back. Please be certain.",
+  "settings-instances.delete.confirmation.instructions": "Please type in the name of the repository to confirm.",
+  "settings-instances.delete.confirmation.names.mismatch": "Names do not match"
 }
