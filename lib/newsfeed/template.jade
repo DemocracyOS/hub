@@ -5,8 +5,8 @@
         .profile.pull-left
           img(src=user.gravatar)
         a.name.pull-left(href='#') #{user.firstName} #{user.lastName}
-        - if (instance)
-          a.go-to-instance.pull-right.glyphicon.glyphicon-share-alt(href=window.location.protocol + '//' + instance.url, target='_blank') #{instance.title}
+        - if (deployment)
+          a.go-to-deployment.pull-right.glyphicon.glyphicon-share-alt(href=window.location.protocol + '//' + deployment.url, target='_blank') #{deployment.title}
         - else
-          a.btn.purple.pull-right(href='/instances/new')=t('feed.call-to-action.start-a-democracy')
+          a.btn.purple.pull-right(href='/deployments/new')=t('feed.call-to-action.start-a-democracy')
   .feeds

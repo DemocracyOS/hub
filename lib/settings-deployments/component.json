@@ -1,6 +1,6 @@
 {
-  "name": "settings-instances",
-  "description": "Settings instances view",
+  "name": "settings-deployments",
+  "description": "Settings deployments view",
   "dependencies": {
     "visionmedia/debug": "2.1.0",
     "visionmedia/page.js": "1.5.0",
@@ -14,14 +14,14 @@
     "view"
   ],
   "templates": [
-    "instance-row.jade",
+    "deployment-row.jade",
     "template.jade",
     "delete-modal.jade",
-    "new-instance-button.jade"
+    "new-deployment-button.jade"
   ],
   "scripts": [
     "view.js",
-    "instance-row-view.js",
+    "deployment-row-view.js",
     "delete-modal-view.js"
   ],
   "styles": [
