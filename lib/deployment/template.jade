@@ -22,9 +22,4 @@ main.container
           .form-group.clearfix
             input(type='text', name='title', tabindex=2, placeholder=t('deployment.form.title.placeholder'), validate='required')
 
-        fieldset
-          label= t('deployment.form.image.label')
-          .form-group.clearfix
-            input(type='text', name='imageUrl', tabindex=4, placeholder=t('deployment.form.image.placeholder'), validate='url')
-
         button.btn.btn-block.btn-primary.btn-lg(tabindex=5)=t('deployment.form.create.submit')
