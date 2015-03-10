@@ -1,4 +1,10 @@
 
+0.0.8 / 2015-03-10
+==================
+
+  * Add domain when clearing jwt
+  * Add Manager environment variables
+
 0.0.7 / 2015-03-10
 ==================
 
