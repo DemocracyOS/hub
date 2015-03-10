@@ -1,4 +1,10 @@
 
+0.0.9 / 2015-03-10
+==================
+
+  * Add subdomain frontend validators
+  * Rename 'instance' to 'deployment' in manager-api
+
 0.0.8 / 2015-03-10
 ==================
 

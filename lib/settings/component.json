@@ -12,7 +12,7 @@
     "settings-profile",
     "settings-password",
     "settings-notifications",
-    "settings-instances"
+    "settings-deployments"
   ],
   "scripts": [ "settings.js" ],
   "styles": [ "settings.styl", "settings-sidebar.styl", "settings-heading.styl", "settings-responsive.styl" ],

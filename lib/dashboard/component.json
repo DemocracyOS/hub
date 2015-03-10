@@ -16,7 +16,7 @@
     "request",
     "config",
     "jwt",
-    "instance-view"
+    "deployment-view"
   ],
   "scripts": [
     "dashboard.js",

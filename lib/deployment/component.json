@@ -1,6 +1,6 @@
 {
-  "name": "instance",
-  "description": "instance pages",
+  "name": "deployment",
+  "description": "deployment pages",
   "dependencies": {
     "component/dom": "^1.0.6",
     "visionmedia/page.js": "1.5.0",
@@ -14,13 +14,13 @@
     "jwt",
     "title",
     "user",
-    "instance-unique"
+    "deployment-unique"
   ],
   "scripts": [
-    "instance.js",
+    "deployment.js",
     "view.js"
   ],
   "templates": [ "template.jade" ],
-  "styles": [ "instance.styl" ],
-  "main": "instance.js"
+  "styles": [ "deployment.styl" ],
+  "main": "deployment.js"
 }

@@ -7,7 +7,7 @@
   "client": [
     "organization name",
     "redirectUrl",
-    "instanceDomain"
+    "deploymentDomain"
   ],
   "organization name": "DemocracyOS Hub",
   "locale": "en",
@@ -39,5 +39,5 @@
   },
   "secret": "Just a sample secret string",
   "redirectUrl": "http://localhost:3000",
-  "instanceDomain": "democracyos.com"
+  "deploymentDomain": "democracyos.com"
 }

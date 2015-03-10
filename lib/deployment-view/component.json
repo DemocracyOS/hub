@@ -1,6 +1,6 @@
 {
-  "name": "instance-view",
-  "description": "Instance view",
+  "name": "deployment-view",
+  "description": "deployment view",
   "dependencies": {
     "component/dom": "^1.0.6",
     "visionmedia/page.js": "1.5.0"
@@ -10,6 +10,6 @@
     "view.js"
   ],
   "templates": [ "template.jade" ],
-  "styles": [ "instance-view.styl" ],
+  "styles": [ "deployment-view.styl" ],
   "main": "view.js"
 }

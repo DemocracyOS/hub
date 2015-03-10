@@ -35,19 +35,18 @@
   "newsfeed.action.getdos": "Get DemocracyOS now!",
   "newsfeed.motto": "Be the change you want to see.",
 
-  "instance.new.contenttitle": "Create new instance",
-  "instance.new.title": "New instance",
-  "instance.form.url.label": "URL",
-  "instance.form.title.label": "Title",
-  "instance.form.title.placeholder": "The name of your instance; e.g., \"City of Springfield\"'",
-  "instance.form.image.label": "Image",
-  "instance.form.image.placeholder": "http://path/to/image.png",
-  "instance.form.create.submit": "Create",
+  "deployment.new.title": "New democracy",
+  "deployment.form.url.label": "URL",
+  "deployment.form.title.label": "Title",
+  "deployment.form.title.placeholder": "The name of your democracy; e.g., \"City of Springfield\"'",
+  "deployment.form.image.label": "Image",
+  "deployment.form.image.placeholder": "http://path/to/image.png",
+  "deployment.form.create.submit": "Create",
 
-  "instance.success.contenttitle": "Congratulations!",
-  "instance.success.title": "Instance created",
-  "instance.success.message": "You have created your <a href='{url}'>very own instance</a>.",
-  "instance.success.back": "Back to Dashboard",
+  "deployment.success.contenttitle": "Congratulations!",
+  "deployment.success.title": "Democracy created",
+  "deployment.success.message": "You have created your <a href='{url}'>very own democracy</a>.",
+  "deployment.success.back": "Back to Dashboard",
 
   "settings.notifications.title": "Notifications settings",
   "settings.notifications.get-email-when": "Get an email when",
@@ -72,6 +71,7 @@
   "validators.password.not.match": "Passwords don't match",
   "validators.invalid": "Invalid",
   "validators.invalid.time": "Invalid time",
+  "validators.invalid.subdomain": "Invalid subdomain",
 
   "signin.error.email-not-valid": "The email address for this user is not validated. We send users a welcome email when they sign up. Please check your email (remember to check your spam folder too) and click on the link supplied on the email. Click <a href='/signup/resend-validation-email'>here</a> if you need the welcome email to be resent",
   "signin.error.user-disabled": "This account has been disabled",
@@ -122,10 +122,10 @@
   "settings.sidebar.password": "Password",
   "settings.sidebar.sessions": "Sessions",
   "settings.sidebar.notifications": "Notifications",
-  "settings.sidebar.instances": "Instances",
+  "settings.sidebar.democracies": "Democracies",
 
-  "settings-instances.delete.confirmation.title": "Delete instance",
-  "settings-instances.delete.confirmation.body": "Once you delete an instance, there is no going back. Please be certain.",
-  "settings-instances.delete.confirmation.instructions": "Please type in the name of the repository to confirm.",
-  "settings-instances.delete.confirmation.names.mismatch": "Names do not match"
+  "settings-deployments.delete.confirmation.title": "Delete democracy",
+  "settings-deployments.delete.confirmation.body": "Once you delete a democracy, there is no going back. Please be certain.",
+  "settings-deployments.delete.confirmation.instructions": "Please type in the name of the repository to confirm.",
+  "settings-deployments.delete.confirmation.names.mismatch": "Names do not match"
 }

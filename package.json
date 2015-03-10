@@ -1,7 +1,7 @@
 {
   "name": "hub",
-  "version": "0.0.8",
-  "description": "DemocracyOS Hub: user interface to spawn and manage DemocracyOS instances",
+  "version": "0.0.9",
+  "description": "DemocracyOS Hub: user interface to spawn and manage DemocracyOS deployments",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -44,7 +44,7 @@
     "express-sslify": "0.1.1",
     "jade": "1.7.0 ",
     "jwt-simple": "0.2.0",
-    "machinepack-democracyosmanager": "^0.1.0",
+    "machinepack-democracyosmanager": "0.2.0",
     "merge-util": "0.1.0",
     "mkdirp": "0.5.0",
     "moment": "2.9.0",

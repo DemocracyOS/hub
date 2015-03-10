@@ -1,7 +1,7 @@
 # DemocracyOS Hub
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DemocracyOS/app?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Web application to manage and spawn custom [DemocracyOS](http://github.com/democracyos/app) instances.
+Web application to manage and spawn custom [DemocracyOS](http://github.com/democracyos/app) deployments.
 
 ## Requirements
 * [NodeJS & NPM](http://nodejs.org/download)

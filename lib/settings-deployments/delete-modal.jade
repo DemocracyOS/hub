@@ -1,0 +1,15 @@
+.content
+  .title=t('settings-deployments.delete.confirmation.title')
+    a(href='#').close.cancel
+      | &times;
+  .body
+    p=t('settings-deployments.delete.confirmation.body')
+    p=t('settings-deployments.delete.confirmation.instructions')
+    .form-group
+      input.deployment-name.form-control(type='text', name='deployment', autofocus)
+    .alert.alert-danger.hide.error
+      strong=t('common.error') + ' '
+      =t('settings-deployments.delete.confirmation.names.mismatch')
+  .confirmation-actions
+    button.cancel=t('common.cancel')
+    button.ok.main=t('common.confirm')
