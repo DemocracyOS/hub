@@ -9,4 +9,8 @@
           a.go-to-deployment.pull-right.glyphicon.glyphicon-share-alt(href=window.location.protocol + '//' + deployment.url, target='_blank') #{deployment.title}
         - else
           a.btn.purple.pull-right(href='/deployments/new')=t('feed.call-to-action.start-a-democracy')
+  - else
+    .jumbotron.text-center
+      h1=t('newsfeed.welcome.title')
+      p=t('newsfeed.welcome.body')
   .feeds

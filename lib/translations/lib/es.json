@@ -33,6 +33,8 @@
   "newsfeed.search.placeholder": "Buscar",
   "newsfeed.action.getdos": "Obtener DemocracyOS ahora",
   "newsfeed.motto": "Se el cambio que queres ver.",
+  "newsfeed.welcome.title": "Construye tu propia democracia hoy",
+  "newsfeed.welcome.body": "Por favor <a href=\"/signin\">inicia sesión</a> o <a href=\"/signup\">regístrate</a> para empezar a disfrutar DemocracyOS",
 
   "deployment.new.title": "Nueva democracia",
   "deployment.form.url.label": "URL",
