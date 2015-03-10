@@ -71,6 +71,7 @@
   "validators.password.not.match": "Las contraseñas no coinciden",
   "validators.invalid": "No válido",
   "validators.invalid.time": "Tiempo no válido",
+  "validators.invalid.subdomain": "Subdominio no válido",
 
   "signup.title": "Registrarse con correo electrónico",
   "signup.email.placeholder": "ejemplo@correo.com",

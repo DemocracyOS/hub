@@ -13,7 +13,7 @@ main.container
           label= t('instance.form.url.label')
           .input-group
             .form-group.clearfix
-              input(type='text', name='name', tabindex=1, validate='required', autofocus)
+              input(type='text', name='name', tabindex=1, validate='required subdomain', autofocus)
             span.error.name-unavailable.hide URL is not available
             span.input-group-addon= instanceDomain
 
