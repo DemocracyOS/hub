@@ -16,7 +16,8 @@
   "templates": [
     "instance-row.jade",
     "template.jade",
-    "delete-modal.jade"
+    "delete-modal.jade",
+    "new-instance-button.jade"
   ],
   "scripts": [
     "view.js",
