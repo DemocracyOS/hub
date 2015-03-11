@@ -9,17 +9,18 @@ main.container
         h2.feed-subtitle Democracy Info
         ul.form-errors
 
-        fieldset
-          label= t('deployment.form.url.label')
-          .input-group
-            .form-group.clearfix
-              input(type='text', name='name', tabindex=1, validate='required subdomain', autofocus)
-            span.error.name-unavailable.hide URL is not available
-            span.input-group-addon= deploymentDomain
+        .fieldsets
+          fieldset
+            label= t('deployment.form.url.label')
+            .input-group
+              .form-group.clearfix
+                input(type='text', name='name', tabindex=1, validate='required subdomain', autofocus)
+              span.error.name-unavailable.hide URL is not available
+              span.input-group-addon= deploymentDomain
 
-        fieldset
-          label= t('deployment.form.title.label')
-          .form-group.clearfix
-            input(type='text', name='title', tabindex=2, placeholder=t('deployment.form.title.placeholder'), validate='required')
+          fieldset
+            label= t('deployment.form.title.label')
+            .form-group.clearfix
+              input(type='text', name='title', tabindex=2, placeholder=t('deployment.form.title.placeholder'), validate='required')
 
         button.btn.btn-block.btn-primary.btn-lg(tabindex=5)=t('deployment.form.create.submit')

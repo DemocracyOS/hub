@@ -48,6 +48,7 @@
   "deployment.success.title": "Democracia creada",
   "deployment.success.message": "Has creado <a href='{url}'>tu democracia</a>.",
   "deployment.success.back": "Volver al tablero",
+  "deployment.form.create.wait": "Por favor espera mientras preparamos tu democracia. Esto puede tardar unos minutos; ¡gracias por tu paciencia!",
 
   "settings.notifications.title": "Configuración de notificaciones",
   "settings.notifications.get-email-when": "Recibir un correo electrónico cuando",

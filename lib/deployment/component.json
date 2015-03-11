@@ -3,6 +3,7 @@
   "description": "deployment pages",
   "dependencies": {
     "component/dom": "^1.0.6",
+    "cristiandouce/loading-lock": "0.0.2",
     "visionmedia/page.js": "1.5.0",
     "component/t": "1.0.0"
   },

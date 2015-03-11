@@ -44,6 +44,7 @@
   "deployment.form.image.label": "Image",
   "deployment.form.image.placeholder": "http://path/to/image.png",
   "deployment.form.create.submit": "Create",
+  "deployment.form.create.wait": "Please wait while we set up your democracy. This may take a few minutes; thanks for your patience!",
 
   "deployment.success.contenttitle": "Congratulations!",
   "deployment.success.title": "Democracy created",
