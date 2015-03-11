@@ -126,8 +126,8 @@
   "settings.sidebar.notifications": "Notifications",
   "settings.sidebar.democracies": "Democracies",
 
-  "settings-deployments.delete.confirmation.title": "Delete democracy",
-  "settings-deployments.delete.confirmation.body": "Once you delete a democracy, there is no going back. Please be certain.",
-  "settings-deployments.delete.confirmation.instructions": "Please type in the name of the repository to confirm.",
-  "settings-deployments.delete.confirmation.names.mismatch": "Names do not match"
+  "settings-deployments.delete.confirmation.title": "Are you ABSOLUTELY sure?",
+  "settings-deployments.delete.confirmation.body": "Once you delete a democracy, there is no going back. Please make sure you understand the consequences of what you're about to do",
+  "settings-deployments.delete.confirmation.instructions": "Please type in your democracy domain (<strong>{domain}</strong>) to confirm deletion.",
+  "settings-deployments.delete.confirmation.button-confirm": "I understand the consequences, delete this democracy"
 }

@@ -8,6 +8,7 @@
     "segmentio/modal": "0.4.1"
   },
   "locals": [
+    "form-view",
     "render",
     "request",
     "user",
