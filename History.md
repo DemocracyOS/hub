@@ -1,4 +1,12 @@
 
+0.0.10 / 2015-03-11
+===================
+
+  * Add welcome message for anonymous users. Closes #56
+  * Update delete deployment modal. Closes #62
+  * Remove image input on deployment creation
+  * Prevent newsfeed from breaking when a feed is not found or an error is produced getting it. Closes #61
+
 0.0.9 / 2015-03-10
 ==================
 
