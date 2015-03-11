@@ -120,8 +120,8 @@
   "settings.sidebar.notifications": "Notificaciones",
   "settings.sidebar.democracies": "Democracies",
 
-  "settings-deployments.delete.confirmation.title": "Eliminar democracia",
-  "settings-deployments.delete.confirmation.body": "Una vez eliminada, no hay vuelta atrás. Proceder con precaución.",
-  "settings-deployments.delete.confirmation.instructions": "Por favor ingrese el nombre de la democracia para confirmar.",
-  "settings-deployments.delete.confirmation.names.mismatch": "Los nombres no coinciden"
+  "settings-deployments.delete.confirmation.title": "¿Estás COMPLETAMENTE seguro?",
+  "settings-deployments.delete.confirmation.body": "Una vez eliminada, no hay vuelta atrás. Por favor asegúrate de entender las consecuencias de lo que estás por hacer.",
+  "settings-deployments.delete.confirmation.instructions": "Por favor ingrese el nombre de su democracia (<strong>{domain}</strong>) para confirmar.",
+  "settings-deployments.delete.confirmation.button-confirm": "Entiendo las consecuencias, eliminar esta democracia"
 }

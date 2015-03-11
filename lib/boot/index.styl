@@ -114,7 +114,6 @@ body
         padding 5px 20px
         background #D95E59
         color #FFF
-        text-transform uppercase
         font-weight 600
       .body
         padding 20px 0px
@@ -126,6 +125,7 @@ body
         font-weight 600
         color #000
         opacity .5
+        position absolute
     .confirmation-actions
       padding 5px 10px
       text-align right
@@ -137,9 +137,8 @@ body
         padding 5px 10px
         letter-spacing 0.09em
         text-transform uppercase
-        font-size 0.7em
+        font-size 12px
         outline none
-        margin-left 5px
         &.cancel
           outline none
           &:focus, &:hover
@@ -148,3 +147,5 @@ body
           background #D95E59
           &:focus, &:hover
             background #952722
+        &[disabled], [disabled]:hover
+          background-color #BE8B89 !important
