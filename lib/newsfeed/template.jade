@@ -6,7 +6,7 @@
           img(src=user.gravatar)
         a.name.pull-left(href='#') #{user.firstName} #{user.lastName}
         - if (deployment)
-          a.go-to-deployment.pull-right(href=window.location.protocol + '//' + deployment.url, target='_blank')
+          a.go-to-deployment.pull-right(href=window.location.protocol + '//' + deployment.url)
             =deployment.title + ' '
             i.glyphicon.glyphicon-share-alt
         - else
