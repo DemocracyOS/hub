@@ -5,9 +5,14 @@
   "host": "localhost",
   "protocol": "http",
   "client": [
-    "organization name",
-    "redirectUrl",
-    "deploymentDomain"
+      "organization name",
+      "locale",
+      "protocol",
+      "host",
+      "logo",
+      "redirectUrl",
+      "deploymentDomain",
+      "maintenance"
   ],
   "organization name": "DemocracyOS Hub",
   "locale": "en",
@@ -39,5 +44,6 @@
   },
   "secret": "Just a sample secret string",
   "redirectUrl": "http://localhost:3000",
-  "deploymentDomain": "democracyos.com"
+  "deploymentDomain": "democracyos.com",
+  "maintenance": false
 }

@@ -6,6 +6,7 @@
     "visionmedia/page.js": "1.5.0"
   },
   "locals": [
+    "maintenance-view",
     "user",
     "title",
     "render",
