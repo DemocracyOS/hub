@@ -1,4 +1,9 @@
 
+0.0.12 / 2015-03-11
+===================
+
+  * Update img to be as wide as the newsfeed card. Closes #60
+
 0.0.11 / 2015-03-11
 ===================
 
