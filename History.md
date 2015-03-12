@@ -1,4 +1,11 @@
 
+0.0.13 / 2015-03-12
+===================
+
+  * Add maintenance view for /deployments/new and /settings/deployments. Closes #64
+  * Update header height. Closes #59
+  * Fix link taking user to their deployment on the same page
+
 0.0.12 / 2015-03-11
 ===================
 
