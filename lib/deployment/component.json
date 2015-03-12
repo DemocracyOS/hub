@@ -15,7 +15,8 @@
     "jwt",
     "title",
     "user",
-    "deployment-unique"
+    "deployment-unique",
+    "maintenance-view"
   ],
   "scripts": [
     "deployment.js",

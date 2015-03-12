@@ -11,6 +11,7 @@
   "common.confirm": "Confirm",
   "common.cancel": "Cancel",
   "common.error": "Error",
+  "common.back-home": "Back home",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Login",
@@ -130,5 +131,8 @@
   "settings-deployments.delete.confirmation.title": "Are you ABSOLUTELY sure?",
   "settings-deployments.delete.confirmation.body": "Once you delete a democracy, there is no going back. Please make sure you understand the consequences of what you're about to do",
   "settings-deployments.delete.confirmation.instructions": "Please type in your democracy domain (<strong>{domain}</strong>) to confirm deletion.",
-  "settings-deployments.delete.confirmation.button-confirm": "I understand the consequences, delete this democracy"
+  "settings-deployments.delete.confirmation.button-confirm": "I understand the consequences, delete this democracy",
+
+  "maintenance.title": "Under maintenance",
+  "maintenance.body": "We're currently fixing some stuff and can't create a democracy just now. Please try again in a bit"
 }

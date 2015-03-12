@@ -11,6 +11,7 @@
   "common.confirm": "Confirmar",
   "common.cancel": "Cancelar",
   "common.error": "Error",
+  "common.back-home": "Volver al inicio",
 
   "header.logo": "DemocracyOS Hub",
   "header.login": "Entrar",
@@ -124,5 +125,8 @@
   "settings-deployments.delete.confirmation.title": "¿Estás COMPLETAMENTE seguro?",
   "settings-deployments.delete.confirmation.body": "Una vez eliminada, no hay vuelta atrás. Por favor asegúrate de entender las consecuencias de lo que estás por hacer.",
   "settings-deployments.delete.confirmation.instructions": "Por favor ingrese el nombre de su democracia (<strong>{domain}</strong>) para confirmar.",
-  "settings-deployments.delete.confirmation.button-confirm": "Entiendo las consecuencias, eliminar esta democracia"
+  "settings-deployments.delete.confirmation.button-confirm": "Entiendo las consecuencias, eliminar esta democracia",
+
+  "maintenance.title": "En mantenimiento",
+  "maintenance.body": "El sitio está bajo mantenimiento y no podremos crear tu democracia ahora mismo. Por favor intenta de nuevo más tarde."
 }
