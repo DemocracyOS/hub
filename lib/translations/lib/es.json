@@ -128,5 +128,8 @@
   "settings-deployments.delete.confirmation.button-confirm": "Entiendo las consecuencias, eliminar esta democracia",
 
   "maintenance.title": "En mantenimiento",
-  "maintenance.body": "El sitio está bajo mantenimiento y no podremos crear tu democracia ahora mismo. Por favor intenta de nuevo más tarde."
+  "maintenance.body": "El sitio está bajo mantenimiento y no podremos crear tu democracia ahora mismo. Por favor intenta de nuevo más tarde.",
+
+  "404.title": "Página no encontrada",
+  "404.go-back-to": "Vuelve a"
 }

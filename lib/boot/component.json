@@ -18,6 +18,7 @@
     "signin",
     "logout",
     "settings",
+    "404",
     "restricted",
     "translations"
   ],
