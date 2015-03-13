@@ -134,5 +134,8 @@
   "settings-deployments.delete.confirmation.button-confirm": "I understand the consequences, delete this democracy",
 
   "maintenance.title": "Under maintenance",
-  "maintenance.body": "We're currently fixing some stuff and can't create a democracy just now. Please try again in a bit"
+  "maintenance.body": "We're currently fixing some stuff and can't create a democracy just now. Please try again in a bit",
+
+  "404.title": "Page not found",
+  "404.go-back-to": "Go back to"
 }
