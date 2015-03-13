@@ -16,7 +16,7 @@
     "render",
     "view"
   ],
-  "images": [ "images/logo.png" ],
+  "images": [ "images/logo.png", "images/logo-small.png" ],
   "templates": [ "template.jade" ],
   "styles": [ "header.styl" ],
   "main": "header.js"
