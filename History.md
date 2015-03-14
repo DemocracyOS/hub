@@ -1,4 +1,12 @@
 
+0.0.14 / 2015-03-14
+===================
+
+  * Add 404 page for backend only, on client we still have this issue to solve https://github.com/DemocracyOS/app/issues/690. Closes #22
+  * Add a smaller logo for smaller devices. Closes #67
+  * Fix header buttons and labels on smaller devices. Fix newsfeed width as well. Closes #68
+  * Fix header signin and signup hiding/showing. Closes #69
+
 0.0.13 / 2015-03-12
 ===================
 
