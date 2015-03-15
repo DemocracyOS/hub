@@ -5,6 +5,7 @@
     "visionmedia/debug": "2.1.0",
     "visionmedia/page.js": "1.5.0",
     "component/t": "1.0.0",
+    "component/classes": "1.2.0",
     "segmentio/modal": "0.4.1"
   },
   "locals": [
@@ -12,7 +13,8 @@
     "render",
     "request",
     "user",
-    "view"
+    "view",
+    "deployment-model"
   ],
   "templates": [
     "deployment-row.jade",

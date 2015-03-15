@@ -16,7 +16,8 @@
     "title",
     "user",
     "deployment-unique",
-    "maintenance-view"
+    "maintenance-view",
+    "deployment-model"
   ],
   "scripts": [
     "deployment.js",
