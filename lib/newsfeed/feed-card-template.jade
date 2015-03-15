@@ -36,7 +36,7 @@
       - if (feed.data.user)
         - if (feed.type == 'law-voted')
           - var color = feed.data.vote == 'positive' ? 'positive' : (feed.data.vote == 'negative' ? 'negative' : 'neutral')
-          .vote-bubble(class=color) Voted yes
+          .vote-bubble(class=color)=t('feed.call-to-action.' + color)
           .arrow-down
         .profile.pull-left
           img(src=feed.data.user.avatar)
