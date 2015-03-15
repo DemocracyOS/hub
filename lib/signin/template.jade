@@ -4,6 +4,8 @@
       .circle
         i.icon-signin
       h1=t('signin.login.to') + " " + t('common.name')
+      - if (emailValidated)
+        p.alert.alert-success=t('signin.email-validated.alert')
 
     form.form(action="/signin", method="post", role="form", novalidate, autovalidate, autosubmit)
       ul.form-errors
