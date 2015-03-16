@@ -1,4 +1,9 @@
 
+0.1.1 / 2015-03-16
+==================
+
+  * Fix exporting top level subdomain in jwt. Closes #77
+
 0.1.0 / 2015-03-15
 ==================
 
