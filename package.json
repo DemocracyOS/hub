@@ -22,8 +22,7 @@
     "url": "https://github.com/democracyos/hub/issues"
   },
   "engines": {
-    "node": "0.10.28",
-    "npm": "1.4.9"
+    "node": "0.10.x"
   },
   "dependencies": {
     "body-parser": "1.9.3",
