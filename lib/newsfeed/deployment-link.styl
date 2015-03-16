@@ -1,0 +1,66 @@
+boxSize = 6
+color = #eee
+color2 = #999
+
+.deployment-link
+  float right
+  height 50px
+  line-height 45px
+
+  .loader
+    display inline-block
+    margin-right 8px
+    margin-left 12px
+    border-radius 100%
+    width boxSize * 1px
+    height boxSize * 1px
+    box-shadow boxSize*1px boxSize*1px color2,
+      boxSize*-1px boxSize*1px color,
+      boxSize*-1px boxSize*-1px color2,
+      boxSize*1px boxSize*-1px color
+    -webkit-animation spin ease infinite 4s
+    animation spin ease infinite 4s
+
+  span
+    position relative
+    top 1px
+    line-height 46px
+    color #999
+    font-size 11px
+
+  .go-to-deployment
+    &:before
+      float right
+      margin-left 7px
+      margin-top 2px
+
+@-webkit-keyframes spin {
+  0%,
+  100% {
+      box-shadow: boxSize*1px boxSize*1px color2,
+      boxSize*-1px boxSize*1px color,
+      boxSize*-1px boxSize*-1px color2,
+      boxSize*1px boxSize*-1px color
+  }
+
+  25% {
+      box-shadow: boxSize*-1px boxSize*1px color,
+      boxSize*-1px boxSize*-1px color2,
+      boxSize*1px boxSize*-1px color,
+      boxSize*1px boxSize*1px color2
+  }
+
+  50% {
+      box-shadow: boxSize*-1px boxSize*-1px color2,
+      boxSize*1px boxSize*-1px color,
+      boxSize*1px boxSize*1px color2,
+      boxSize*-1px boxSize*1px color
+  }
+
+  75% {
+      box-shadow: boxSize*1px boxSize*-1px color,
+      boxSize*1px boxSize*1px color2,
+      boxSize*-1px boxSize*1px color,
+      boxSize*-1px boxSize*-1px color2
+  }
+}

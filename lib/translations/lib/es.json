@@ -46,6 +46,10 @@
   "deployment.form.image.placeholder": "http://ruta/a/imagen.png",
   "deployment.form.create.submit": "Crear",
 
+  "deployment.status.creating": "Creando democracia",
+  "deployment.status.destroying": "Borrando democracia",
+  "deployment.status.error": "Se produjo un error en la democracia, intente mas tarde por favor.",
+
   "deployment.success.contenttitle": "¡Felicitaciones!",
   "deployment.success.title": "Democracia creada",
   "deployment.success.message": "Has creado <a href='{url}'>tu democracia</a>.",

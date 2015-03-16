@@ -1,0 +1,18 @@
+{
+  "name": "deployment-model",
+  "description": "Deployment model component.",
+  "dependencies": {
+    "component/emitter": "1.1.2",
+    "visionmedia/superagent": "0.18.0",
+    "visionmedia/debug": "2.1.0"
+  },
+  "local": [
+    "request"
+  ],
+  "scripts": [
+    "model.js",
+    "deployment.js"
+  ],
+  "main": "deployment.js",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+case deployment.status()
+  when 'loading'
+  when 'loaded'
+    .loader
+  when 'creating'
+    span= t('deployment.status.creating')
+    .loader
+  when 'destroying'
+    span= t('deployment.status.destroying')
+    .loader
+  when 'ready'
+    a.go-to-deployment.pull-right(href=deployment.url())
+      span= deployment.attr('title') + ' '
+      i.glyphicon.glyphicon-menu-right
+  when 'non-existent'
+    a.btn.purple.pull-right(href='/deployments/new')
+      = t('feed.call-to-action.start-a-democracy')

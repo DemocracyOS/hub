@@ -5,12 +5,6 @@
         .profile.pull-left
           img(src=user.gravatar)
         a.name.pull-left(href='#') #{user.firstName} #{user.lastName}
-        - if (deployment)
-          a.go-to-deployment.pull-right(href=window.location.protocol + '//' + deployment.url)
-            =deployment.title + ' '
-            i.glyphicon.glyphicon-share-alt
-        - else
-          a.btn.purple.pull-right(href='/deployments/new')=t('feed.call-to-action.start-a-democracy')
   - else
     .jumbotron.text-center
       h1=t('newsfeed.welcome.title')

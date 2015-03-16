@@ -10,10 +10,25 @@
     "title",
     "user",
     "view",
-    "request"
+    "request",
+    "deployment-model",
+    "render"
   ],
-  "styles": [ "newsfeed.styl" ],
-  "scripts": [ "newsfeed.js", "view.js", "feed-card.js" ],
-  "templates": [ "template.jade", "feed-card-template.jade" ],
+  "styles": [
+    "newsfeed.styl",
+    "deployment-link.styl"
+  ],
+  "scripts": [
+    "newsfeed.js",
+    "view.js",
+    "feed-card.js",
+    "deployment-link.js"
+  ],
+  "templates": [
+    "template.jade",
+    "feed-card-template.jade",
+    "deployment-link.jade",
+    "deployment-link-status.jade"
+  ],
   "main": "newsfeed.js"
 }
