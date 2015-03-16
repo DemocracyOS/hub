@@ -1,4 +1,13 @@
 
+0.1.0 / 2015-03-15
+==================
+
+ * Fix deployment form timing
+ * Fix onsuccess event of deployment creation
+ * Fix refres of settings-deployment view
+ * Fix load deployment when the user logs in
+ * Add deployment status on frontend
+
 0.0.18 / 2015-03-15
 ===================
 
