@@ -62,7 +62,8 @@
     "string-to-js": "0.0.1",
     "stylus": "0.49.3",
     "t-component": "1.0.0",
-    "democracyos-db": "0.0.1"
+    "democracyos-db": "0.0.1",
+    "underscore": "^1.7.0"
   },
   "scripts": {
     "postinstall": "node ./bin/hub-install && node ./bin/hub-config && node ./bin/hub-build"
