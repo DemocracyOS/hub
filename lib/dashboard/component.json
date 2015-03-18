@@ -4,7 +4,7 @@
   "dependencies": {
     "component/dom": "^1.0.6",
     "visionmedia/page.js": "1.5.0",
-    "visionmedia/debug": "2.1.0",
+    "visionmedia/debug": "2.1.3",
     "component/t": "1.0.0",
     "javve/list.js": "1.1.1"
   },
