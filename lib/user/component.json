@@ -4,7 +4,7 @@
   "dependencies": {
     "visionmedia/page.js": "1.5.0",
     "component/bus": "^0.0.2",
-    "visionmedia/debug": "2.1.0"
+    "visionmedia/debug": "2.1.3"
   },
   "local": [
     "user-model",
