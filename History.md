@@ -1,4 +1,10 @@
 
+0.2.2 / 2015-03-19
+==================
+
+  * Add lowercase subdomains only. Closes #80
+  * Update for two columns on newsfeed card #60
+
 0.2.1 / 2015-03-19
 ==================
 
