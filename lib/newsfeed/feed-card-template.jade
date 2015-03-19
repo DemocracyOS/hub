@@ -14,7 +14,7 @@
       h1: a(href='#{url}')=feed.mediaTitle
       small
         i.glyphicon.glyphicon-user
-        - var cardinality = participants.length ? 'singular' : 'plural'
+        - var cardinality = participants.length == 1 ? 'singular' : 'plural'
         | #{ feed.participants.length } #{t('feed.participant.' + cardinality)}
       small.tag
         i.glyphicon.glyphicon-tag
