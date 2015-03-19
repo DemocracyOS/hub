@@ -48,7 +48,7 @@
   "deployment.form.create.wait": "Please wait while we set up your democracy. This may take a few minutes; thanks for your patience!",
 
   "deployment.status.creating": "Creating democracy...",
-  "deployment.status.destroying": "Destroying democracy...",
+  "deployment.status.destroying": "Destroying...",
   "deployment.status.error": "There was an error in this democracy, try again later please.",
 
   "deployment.success.contenttitle": "Congratulations!",
