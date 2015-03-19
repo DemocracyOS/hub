@@ -1,4 +1,9 @@
 
+0.2.1 / 2015-03-19
+==================
+
+  * Update 'Destroying democracy...' for just 'Destroying...'. Closes #84
+
 0.2.0 / 2015-03-19
 ==================
 
