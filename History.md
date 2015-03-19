@@ -1,4 +1,10 @@
 
+0.2.3 / 2015-03-19
+==================
+
+  * Fix comment styling Closes #85
+  * Fix when summary is only one div long
+
 0.2.2 / 2015-03-19
 ==================
 
