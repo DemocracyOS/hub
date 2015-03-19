@@ -1,7 +1,7 @@
 .deployment
   .title.pull-left
     p: strong= deployment.attr('title')
-    a.url(href=deployment.url(), target='_blank')= deployment.url()
+    a.url(href=deployment.url())= deployment.url()
   a.btn-remove.pull-right(href='#')
     i.glyphicon.glyphicon-trash
   .status.creating
@@ -12,4 +12,3 @@
     p= t('deployment.status.destroying')
   .status.error
     p= t('deployment.status.error')
-

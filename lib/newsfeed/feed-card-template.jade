@@ -11,7 +11,7 @@
 .row
   article.col-xs-12.col-md-8.col-md-offset-2.newsfeed
     header
-      h1: a(href='#{url}', target='_blank')=feed.mediaTitle
+      h1: a(href='#{url}')=feed.mediaTitle
       small
         i.glyphicon.glyphicon-user
         - var cardinality = participants.length ? 'singular' : 'plural'
