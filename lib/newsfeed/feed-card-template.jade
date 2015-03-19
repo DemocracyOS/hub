@@ -25,7 +25,7 @@
           span.time-ago-label= (closed ? t('common.closed') : t('common.close')) + " "
           span.meta-item.meta-timeago.ago(data-time=feed.closingAt.toString())
         - else
-          span.meta-item.meta-timeago.unknown= t('feed.unknown-closing-date')
+          span.meta-item.meta-timeago.unknown= t('feed.no-closing-date')
     section
       - if (feed.type == 'law-published' || feed.type == 'law-voted')
         .row

@@ -110,7 +110,7 @@
   "password": "Password",
   "password.repeat": "Repetir contraseña",
 
-  "feed.unknown-closing-date": "Fecha de cierre desconocida",
+  "feed.no-closing-date": "Sin fecha de cierre",
   "feed.participant.plural": "Participantes",
   "feed.participant.singular": "Participante",
   "feed.call-to-action.positive": "Votado positivo",

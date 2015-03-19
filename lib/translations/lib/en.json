@@ -116,7 +116,7 @@
   "password": "Password",
   "password.repeat": "Repeat password",
 
-  "feed.unknown-closing-date": "Unknown closing date",
+  "feed.no-closing-date": "No closing date",
   "feed.participant.plural": "Participants",
   "feed.participant.singular": "Participant",
   "feed.call-to-action.positive": "Voted yes",
