@@ -1,4 +1,25 @@
 
+0.2.1 / 2015-03-19
+==================
+
+  * Update 'Destroying democracy...' for just 'Destroying...'. Closes #84
+
+0.2.0 / 2015-03-19
+==================
+
+ * Add secure usage of gravatar by default
+ * Bump visionmedia/debug to 2.1.3
+ * Load font via HTTPS if available
+ * Remove port from feed url
+ * Replace 'http://' for 'https://' on feed's url
+ * add SSL redirection for heroku
+ * update ssl usage for heroku
+
+0.1.5 / 2015-03-18
+==================
+
+  * Bump visionmedia/debug to 2.1.3
+
 0.1.4 / 2015-03-17
 ==================
 
