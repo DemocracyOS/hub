@@ -4,6 +4,7 @@
   "mongoUrl": "mongodb://localhost/democracyos-hub",
   "host": "localhost",
   "protocol": "http",
+  "google analytics tracking id" : "",
   "logo": "/lib/header/images/logo.png",
   "logo mobile": "/lib/header/images/logo-mobile.png",
   "client": [
@@ -11,6 +12,7 @@
       "locale",
       "protocol",
       "host",
+      "google analytics tracking id",
       "logo",
       "logo mobile",
       "redirectUrl",
