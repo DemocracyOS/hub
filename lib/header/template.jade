@@ -2,6 +2,13 @@ header.app-header(headroom)
   #header-container
     a.logo(href='/')
       h1=config['organization name']
+    h1#logo
+      a(href='/')
+        - var mobileLogo = !!config['logo mobile']
+        - var classes = mobileLogo ? 'hidden-xs' : ''
+        img(src=config['logo'], class=classes).logo-image
+        - if (mobileLogo)
+          img(src=config['logo mobile']).logo-image.visible-xs-inline-block
 
     .user-nav.btn-group
       .user
