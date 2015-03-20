@@ -20,19 +20,25 @@ header.app-header
   font-size 12px
 
   a
-    color white
-    &:hover
-      color white
-    &.logo
-      width 166px
-      height 53px
-      > *
-        background-image url('images/logo.png')
+     color white
+     &:hover
+       color white
 
-      @media screen and (max-width: 700px)
-        width 23px
-        > *
-          background-image url('images/logo-small.png')
+  h1
+    display inline-block
+    width 300px
+    font-size 12px
+    margin-top 12px
+    .logo
+      height 40px
+      display inline-block
+      margin-right 10px
+      margin-top -2px
+
+  img.logo-image
+    height 28px
+    margin-top 5px
+    display inline-block
 
   .user-nav
     display inline-block

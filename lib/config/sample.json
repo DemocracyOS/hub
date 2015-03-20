@@ -4,12 +4,15 @@
   "mongoUrl": "mongodb://localhost/democracyos-hub",
   "host": "localhost",
   "protocol": "http",
+  "logo": "/lib/header/images/logo.png",
+  "logo mobile": "/lib/header/images/logo mobile.png",
   "client": [
       "organization name",
       "locale",
       "protocol",
       "host",
       "logo",
+      "logo mobile",
       "redirectUrl",
       "deploymentDomain",
       "maintenance"
