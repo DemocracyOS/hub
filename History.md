@@ -1,4 +1,13 @@
 
+0.2.5 / 2015-03-20
+==================
+
+  * [newsfeed] - Fix parsing feeds' elements
+  * [header] - Update logo to look like app's. Closes #71
+  * [newsfeed-card] - Fix participants cardinality. Closes #87
+  * [closing date] - Update 'Unknown closing date' for 'No closing date'. Close #88
+  * [deployment links] - Fix linking to blank targets. Closes #83
+
 0.2.4 / 2015-03-19
 ==================
 
