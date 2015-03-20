@@ -1,4 +1,10 @@
 
+0.2.6 / 2015-03-20
+==================
+
+  * [header] - Rename 'logo mobile.png' to 'logo-mobile.png'
+  * [newsfeed-card] - Fix parsing an empty summary
+
 0.2.5 / 2015-03-20
 ==================
 
