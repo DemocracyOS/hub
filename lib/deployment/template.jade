@@ -14,7 +14,7 @@ main.container
             label= t('deployment.form.url.label')
             .input-group
               .form-group.clearfix
-                input(type='text', name='name', tabindex=1, validate='required subdomain', autofocus, id='hostname')
+                input(type='text', name='name', tabindex=1, validate='required subdomain', autofocus, id='hostname', autocorrect='off', autocapitalize='off')
               span.error.name-unavailable.hide URL is not available
               span.input-group-addon= deploymentDomain
 
