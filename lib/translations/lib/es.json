@@ -41,7 +41,7 @@
   "deployment.new.title": "Nueva democracia",
   "deployment.form.url.label": "URL",
   "deployment.form.title.label": "Titulo",
-  "deployment.form.title.placeholder": "El nombre de tu democracia, por ejemplo \"Ciudad de Springfield\"",
+  "deployment.form.title.placeholder": "El nombre de tu democracia",
   "deployment.form.image.label": "Imagen",
   "deployment.form.image.placeholder": "http://ruta/a/imagen.png",
   "deployment.form.create.submit": "Crear",
