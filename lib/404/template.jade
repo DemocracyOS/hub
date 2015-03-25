@@ -14,6 +14,6 @@ html
   body.not-found
     .content-404
       h1=t('404.title')
-      a.logo.go-back(href=config['host'])=t('404.go-back-to')
-        h1=config['organization name']
-      
+      a.go-back(href='/')
+        =t('404.go-back-to')
+        img(src=config.logo, alt=config['organization name'])
