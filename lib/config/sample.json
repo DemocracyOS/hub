@@ -18,7 +18,8 @@
       "redirectUrl",
       "deploymentDomain",
       "maintenance",
-      "kiss metrics key"
+      "kiss metrics key",
+      "mix panel key"
   ],
   "organization name": "DemocracyOS Hub",
   "locale": "en",
@@ -52,5 +53,6 @@
   "redirectUrl": "http://localhost:3000",
   "deploymentDomain": "democracyos.com",
   "maintenance": false,
-  "kiss metrics key": ""
+  "kiss metrics key": "",
+  "mix panel key": ""
 }
