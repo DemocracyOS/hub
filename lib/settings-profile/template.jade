@@ -21,5 +21,5 @@
         .controls
           a(href="https://gravatar.com", target="_blank")
             strong= t('Change your profile picture at gravatar.com')
-          input.form-control(type='text', name='profilePictureUrl', tabindex=4, placeholder=t('Or paste an image URL here...'), value=user.profilePictureUrl, validate='url')
+          input.form-control(type='text', name='profilePictureUrl', tabindex=4, placeholder=t('Or paste an image URL here...'), value=user.profilePictureUrl, validate='url secureurl')
       .form-group: button.btn.btn-success.btn-block.btn-lg(tabindex=5)=t('Save')

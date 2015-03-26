@@ -69,6 +69,7 @@
   "validators.invalid.lastname": "Invalid lastname",
   "validators.invalid.author": "Invalid author",
   "validators.invalid.url": "Invalid URL",
+  "validators.invalid.secureurl": "The URL is not secure (must start with 'https://')",
   "validators.invalid.number": "Invalid number",
   "invalid.password": "Invalid password",
   "validators.min-length.singular": "At least 1 character",
