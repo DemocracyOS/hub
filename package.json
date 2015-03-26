@@ -1,6 +1,6 @@
 {
   "name": "hub",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "DemocracyOS Hub: user interface to spawn and manage DemocracyOS deployments",
   "main": "index.js",
   "repository": {
