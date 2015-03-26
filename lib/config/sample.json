@@ -17,7 +17,8 @@
       "logo mobile",
       "redirectUrl",
       "deploymentDomain",
-      "maintenance"
+      "maintenance",
+      "kiss metrics key"
   ],
   "organization name": "DemocracyOS Hub",
   "locale": "en",
@@ -50,5 +51,6 @@
   "secret": "Just a sample secret string",
   "redirectUrl": "http://localhost:3000",
   "deploymentDomain": "democracyos.com",
-  "maintenance": false
+  "maintenance": false,
+  "kiss metrics key": ""
 }
