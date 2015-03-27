@@ -72,6 +72,7 @@
   "validators.invalid.lastname": "Apellido no válido",
   "validators.invalid.author": "Autor no válido",
   "validators.invalid.url": "URL no válida",
+  "validators.invalid.secureurl": "La URL no es segura (debe comenzar con 'https://')",
   "validators.invalid.number": "Número no válido",
   "invalid.password": "Contraseña no válida",
   "validators.min-length.singular": "Al menos 1 caracter",
