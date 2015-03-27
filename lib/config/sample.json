@@ -54,5 +54,6 @@
   "deploymentDomain": "democracyos.com",
   "maintenance": false,
   "kiss metrics key": "",
-  "mix panel key": ""
+  "mix panel key": "",
+  "segmentio key": ""
 }
