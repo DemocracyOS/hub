@@ -17,7 +17,7 @@
         input.form-control(type='text', disabled='disabled' name='email', tabindex=3, placeholder=t('forgot.mail.example'), value='#{user.email}', validate='required email')
       .form-group.profile-picture
         .image-container
-          img(src=user.gravatar, width="65")
+          img(src=user.profilePictureUrl || user.gravatar, width="65")
         .controls
           a(href="https://gravatar.com", target="_blank")
             strong= t('Change your profile picture at gravatar.com')
