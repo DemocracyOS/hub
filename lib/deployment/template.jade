@@ -13,14 +13,14 @@ main.container
           fieldset
             label= t('deployment.form.url.label')
             .input-group
-              .form-group.clearfix
+              .form-group.clearfix.subdomain
                 input(type='text', name='name', tabindex=1, validate='required subdomain', autofocus, id='hostname', autocorrect='off', autocapitalize='off')
               span.error.name-unavailable.hide URL is not available
               span.input-group-addon= deploymentDomain
 
           fieldset
             label= t('deployment.form.title.label')
-            .form-group.clearfix
+            .form-group.clearfix.title
               input(type='text', name='title', tabindex=2, placeholder=t('deployment.form.title.placeholder'), validate='required')
 
         button.btn.btn-block.btn-primary.btn-lg(tabindex=5)=t('deployment.form.create.submit')
