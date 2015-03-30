@@ -11,8 +11,7 @@
   "locals": [
     "title",
     "user",
-    "form-view",
-    "jwt"
+    "form-view"
   ],
   "scripts": [ "signin.js", "view.js" ],
   "styles": [ "signin.styl" ],
