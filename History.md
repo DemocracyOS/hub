@@ -1,4 +1,23 @@
 
+0.2.11 / 2015-03-30
+===================
+
+  * Add newsfeed pagination using feeds component. Closes #90
+  * Add news feed pagination #90
+  * Add https validation to profile picture URL #79
+  * Add showing avatar using picture URL or mongoose-gravatar plugin. Closes #79
+  * Add feededAt timestamp to order the newsfeed
+  * Add showing profilePictureUrl if is set or gravatar fallback on 404 image not found. #79
+  * Add server side validation for profilePictureUrl to start with 'https://' #79
+  * Add prevent autocaps on URL field on mobile #81
+  * Add --config parameter. Closes #93
+  * Add show participate button instead of Reply button on user's own comment card. Closes #86
+  * Remove sending user to the template as it is already sent inside 'render' component #86
+  * Remove link from user's name. Closes #82
+  * Fix go back link and page styling. Closes #95
+  * Fix styles on mobile. Closes #98
+  * Fix 'See results' button styling. Closes #102
+
 0.2.10 / 2015-03-27
 ===================
 
