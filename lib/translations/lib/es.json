@@ -37,6 +37,8 @@
   "newsfeed.motto": "Se el cambio que queres ver.",
   "newsfeed.welcome.title": "Construye tu propia democracia hoy",
   "newsfeed.welcome.body": "Por favor <a href=\"/signin\">inicia sesión</a> o <a href=\"/signup\">regístrate</a> para empezar a disfrutar DemocracyOS",
+  "newsfeed.button.load-more": "Cargar más",
+  "newsfeed.nothing-to-show": "No hay nada para mostrar",
 
   "deployment.new.title": "Nueva democracia",
   "deployment.form.url.label": "URL",
