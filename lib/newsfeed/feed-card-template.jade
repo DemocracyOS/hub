@@ -47,7 +47,7 @@
           .vote-bubble(class=color)=t('feed.call-to-action.' + color)
           .arrow-down
         .profile.pull-left
-          img(src=feed.data.user.profilePictureUrl || feed.data.user.gravatar)
+          img(src=feed.data.user.profilePictureUrl)
         p.name.pull-left=feed.data.user.fullName
       .call-to-action
         - if (feed.type == 'law-commented' && feed.data.user.id != user.id)
