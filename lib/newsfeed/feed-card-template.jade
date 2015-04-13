@@ -16,9 +16,10 @@
         i.glyphicon.glyphicon-user
         - var cardinality = participants.length == 1 ? 'singular' : 'plural'
         | #{ feed.participants.length } #{t('feed.participant.' + cardinality)}
-      small.tag
-        i.glyphicon.glyphicon-tag
-        | #{ feed.tag.name }
+      - if (feed.tag)
+        small.tag
+          i.glyphicon.glyphicon-tag
+          | #{ feed.tag.name }
       small.closing-at(class=closed ? 'closed' : (feed.closingAt ? 'closing' : 'unknown'))
         i.glyphicon.glyphicon-time
         - if (feed.closingAt)
@@ -70,4 +71,4 @@
               - var vote = 'purple'
               - var text = t('feed.call-to-action.participate')
             a.btn.btn-default.pull-right(class=vote, href=url)=text
-      
+
