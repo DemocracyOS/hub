@@ -16,9 +16,10 @@
         i.glyphicon.glyphicon-user
         - var cardinality = participants.length == 1 ? 'singular' : 'plural'
         | #{ feed.participants.length } #{t('feed.participant.' + cardinality)}
-      small.tag
-        i.glyphicon.glyphicon-tag
-        | #{ feed.tag.name }
+      - if (feed.tag)
+        small.tag
+          i.glyphicon.glyphicon-tag
+          = feed.tag.name
       small.closing-at(class=closed ? 'closed' : (feed.closingAt ? 'closing' : 'unknown'))
         i.glyphicon.glyphicon-time
         - if (feed.closingAt)
@@ -31,9 +32,9 @@
         .row
           - var classes = feed.image ? 'col-sm-6' : 'col-sm-12'
           .col-xs-12(class=classes)
-            - each paragraph in feed.paragraphs
-              p!=paragraph
-              //- p.summary!=feed.summary
+            !=feed.paragraphs.html
+            - if (feed.paragraphs.more)
+              p.read-more: a(href="")= t('newsfeed.button.read-more')
           - if (feed.image)
             .col-xs-12.col-sm-6
               img(src=feed.image)
@@ -70,4 +71,4 @@
               - var vote = 'purple'
               - var text = t('feed.call-to-action.participate')
             a.btn.btn-default.pull-right(class=vote, href=url)=text
-      
+
