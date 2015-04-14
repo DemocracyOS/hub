@@ -1,4 +1,11 @@
 
+0.3.0 / 2015-04-14
+==================
+
+  * Add truncate text on newsfeed to 450 chars #60
+  * Fix showing the same feed card over and over again #108
+  * Fix not shown gravatars on cards #104.
+
 0.2.11 / 2015-03-30
 ===================
 
