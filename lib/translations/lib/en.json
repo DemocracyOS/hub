@@ -38,6 +38,7 @@
   "newsfeed.welcome.title": "Build your own democracy today",
   "newsfeed.welcome.body": "Please <a href=\"/signin\">sign in</a> or <a href=\"/signup\">sign up</a> to start enjoying DemocracyOS",
   "newsfeed.button.load-more": "Load more",
+  "newsfeed.button.read-more": "Read more",
   "newsfeed.nothing-to-show": "There's nothing to show!",
 
   "deployment.new.title": "New democracy",
